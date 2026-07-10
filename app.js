@@ -351,3 +351,112 @@ window.addEventListener("resize", () => {
   }
   wasMobile = nowMobile;
 });
+
+// ---- Add beach form ----
+let pendingLat = null;
+let pendingLng = null;
+let addMarker = null;
+
+function showAddModal() {
+  document.getElementById("addModal").hidden = false;
+  const hasCoords = pendingLat !== null && pendingLng !== null;
+  document.getElementById("addSubmit").disabled = !hasCoords;
+  const preview = document.getElementById("addPreview");
+  if (hasCoords) {
+    preview.className = "add-preview has-coords";
+    preview.innerHTML = `📍 <strong>${pendingLat.toFixed(5)}, ${pendingLng.toFixed(5)}</strong>`;
+    document.getElementById("fLat").value = pendingLat.toFixed(6);
+    document.getElementById("fLng").value = pendingLng.toFixed(6);
+  } else {
+    preview.className = "add-preview";
+    preview.innerHTML = '<span class="add-preview-text">📍 Clica al mapa per seleccionar ubicació</span>';
+    document.getElementById("fLat").value = "";
+    document.getElementById("fLng").value = "";
+  }
+  if (addMarker) { map.removeLayer(addMarker); addMarker = null; }
+}
+
+document.getElementById("addBtn").addEventListener("click", showAddModal);
+
+document.querySelectorAll("[data-addclose]").forEach(el =>
+  el.addEventListener("click", closeAddModal)
+);
+
+function closeAddModal() {
+  document.getElementById("addModal").hidden = true;
+  pendingLat = null;
+  pendingLng = null;
+  if (addMarker) { map.removeLayer(addMarker); addMarker = null; }
+}
+
+map.on("click", (e) => {
+  const { lat, lng } = e.latlng;
+  pendingLat = lat;
+  pendingLng = lng;
+  if (!document.getElementById("addModal").hidden) {
+    document.getElementById("addSubmit").disabled = false;
+    document.getElementById("fLat").value = lat.toFixed(6);
+    document.getElementById("fLng").value = lng.toFixed(6);
+    const preview = document.getElementById("addPreview");
+    preview.className = "add-preview has-coords";
+    preview.innerHTML = `📍 <strong>${lat.toFixed(5)}, ${lng.toFixed(5)}</strong>`;
+  }
+  if (addMarker) map.removeLayer(addMarker);
+  addMarker = L.circleMarker([lat, lng], {
+    radius: 10, color: "#fff", weight: 3,
+    fillColor: "#3b82f6", fillOpacity: 0.95,
+  }).addTo(map);
+});
+
+document.getElementById("addForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const lat = parseFloat(document.getElementById("fLat").value);
+  const lng = parseFloat(document.getElementById("fLng").value);
+  if (isNaN(lat) || isNaN(lng)) return;
+
+  const name = document.getElementById("fName").value.trim();
+  const id = name.toLowerCase()
+    .replace(/[^a-z0-9à-ú]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+  const walkDist = parseInt(document.getElementById("fWalk").value) || 500;
+  const walkHours = +(walkDist / 3000).toFixed(2);
+
+  const data = {
+    id,
+    name,
+    zone: document.getElementById("fZone").value,
+    emoji: document.getElementById("fEmoji").value || "🏖️",
+    desc: document.getElementById("fDesc").value.trim(),
+    length: parseInt(document.getElementById("fLength").value) || 0,
+    width: parseInt(document.getElementById("fWidth").value) || 0,
+    access: {
+      cotxe: document.getElementById("fCotxe").checked,
+      peu: document.getElementById("fPeu").checked,
+      bicicleta: document.getElementById("fBici").checked,
+      moto: document.getElementById("fMoto").checked,
+      vaixell: document.getElementById("fVaixell").checked,
+    },
+    walkDistance: walkDist,
+    walkHours,
+    water: document.getElementById("fWater").value,
+    sunHours: 8,
+    crowd: parseInt(document.getElementById("fCrowd").value) || 3,
+    lat,
+    lng,
+    image: "",
+    imageFull: "",
+    imageSource: "",
+    imageCredit: "",
+  };
+
+  const json = JSON.stringify(data, null, 2);
+  const blob = new Blob([json], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${id}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  closeAddModal();
+});

@@ -20,8 +20,8 @@
   "crowd": 3,
   "lat": 40.041688,
   "lng": 4.159371,
-  "image": "",
-  "imageFull": "",
-  "imageSource": "",
-  "imageCredit": ""
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cala_Pudenta_%2821293078065%29.jpg/960px-Cala_Pudenta_%2821293078065%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cala_Pudenta_%2821293078065%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Pudenta_(21293078065).jpg",
+  "imageCredit": "RD_Elsie · CC BY 2.0"
 }

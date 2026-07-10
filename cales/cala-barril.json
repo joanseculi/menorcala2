@@ -20,8 +20,8 @@
   "crowd": 3,
   "lat": 40.06211,
   "lng": 4.02858,
-  "image": "",
-  "imageFull": "",
-  "imageSource": "",
-  "imageCredit": ""
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Cala_Barril_%281%29.jpg/960px-Cala_Barril_%281%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cala_Barril_%281%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Barril_(1).jpg",
+  "imageCredit": "Quico Iglesias · CC BY-SA 4.0"
 }

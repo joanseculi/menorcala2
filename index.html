@@ -54,6 +54,7 @@
 
     <section class="map-col" id="mapCol">
       <div id="map"></div>
+      <!-- <button class="map-add-btn" id="addBtn" title="Afegeix una cala nova">+</button> -->
       <aside class="list-panel">
         <p class="list-count" id="listCount"></p>
         <ul class="cala-list" id="calaList"></ul>
@@ -72,6 +73,89 @@
   <footer class="footer">
     <p>Fet amb 🩵 per descobrir la Menorca amagada · Dades i coordenades orientatives — respecta sempre l'entorn natural · Imatges de Wikimedia Commons</p>
   </footer>
+
+  <div class="add-modal" id="addModal" hidden>
+    <div class="add-backdrop" data-addclose></div>
+    <div class="add-form">
+      <button class="add-close" data-addclose aria-label="Tancar">✕</button>
+      <h2>Afegeix una cala nova</h2>
+      <p class="add-hint">Primer clica al mapa per posar les coordenades.</p>
+
+      <div class="add-preview" id="addPreview">
+        <span class="add-preview-text">📍 Clica al mapa per seleccionar ubicació</span>
+      </div>
+
+      <form id="addForm" autocomplete="off">
+        <div class="add-row">
+          <label>Nom de la cala *</label>
+          <input type="text" id="fName" required placeholder="ex: Cala des Secret" />
+        </div>
+        <div class="add-row">
+          <label>Zona *</label>
+          <select id="fZone" required>
+            <option value="">Tria zona…</option>
+            <option value="Nord · Maó">Nord · Maó</option>
+            <option value="Nord · Es Mercadal">Nord · Es Mercadal</option>
+            <option value="Nord · Alaior">Nord · Alaior</option>
+            <option value="Sud · Es Migjorn Gran">Sud · Es Migjorn Gran</option>
+            <option value="Centre · Ferreries">Centre · Ferreries</option>
+            <option value="Oest · Ciutadella">Oest · Ciutadella</option>
+            <option value="Sud · Sant Lluís">Sud · Sant Lluís</option>
+          </select>
+        </div>
+        <div class="add-row add-desc">
+          <label>Descripció *</label>
+          <textarea id="fDesc" required placeholder="Describeu la cala…" rows="3"></textarea>
+        </div>
+        <div class="add-row add-2col">
+          <div>
+            <label>Llargada (m)</label>
+            <input type="number" id="fLength" min="0" placeholder="100" />
+          </div>
+          <div>
+            <label>Amplada (m)</label>
+            <input type="number" id="fWidth" min="0" placeholder="30" />
+          </div>
+        </div>
+        <div class="add-row add-2col">
+          <div>
+            <label>Distància a peu (m)</label>
+            <input type="number" id="fWalk" min="0" placeholder="500" />
+          </div>
+          <div>
+            <label>Afluència (1-10)</label>
+            <input type="number" id="fCrowd" min="1" max="10" value="3" />
+          </div>
+        </div>
+        <div class="add-row">
+          <label>Estat de l'aigua</label>
+          <select id="fWater">
+            <option value="Cristal·lina">Cristal·lina</option>
+            <option value="Turquesa">Turquesa</option>
+            <option value="Neta">Neta</option>
+            <option value="Regular">Regular</option>
+          </select>
+        </div>
+        <div class="add-row">
+          <label>Accés</label>
+          <div class="add-access">
+            <label class="add-check"><input type="checkbox" id="fCotxe" checked /> 🚗 Cotxe</label>
+            <label class="add-check"><input type="checkbox" id="fPeu" checked /> 🥾 A peu</label>
+            <label class="add-check"><input type="checkbox" id="fBici" checked /> 🚲 Bici</label>
+            <label class="add-check"><input type="checkbox" id="fMoto" checked /> 🏍️ Moto</label>
+            <label class="add-check"><input type="checkbox" id="fVaixell" checked /> ⛵ Vaixell</label>
+          </div>
+        </div>
+        <div class="add-row add-emoji">
+          <label>Emoji</label>
+          <input type="text" id="fEmoji" value="🏖️" maxlength="4" />
+        </div>
+        <input type="hidden" id="fLat" />
+        <input type="hidden" id="fLng" />
+        <button type="submit" class="add-submit" id="addSubmit" disabled>📥 Descarregar JSON</button>
+      </form>
+    </div>
+  </div>
 
   <div class="lightbox" id="lightbox" hidden>
     <div class="lb-backdrop" data-lbclose></div>

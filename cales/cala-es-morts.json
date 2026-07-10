@@ -20,8 +20,8 @@
   "crowd": 3,
   "lat": 40.049516,
   "lng": 3.830568,
-  "image": "",
-  "imageFull": "",
-  "imageSource": "",
-  "imageCredit": ""
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Calesmorts_o_Cala_Morts.Es_Mercadal.Menorca.jpg/960px-Calesmorts_o_Cala_Morts.Es_Mercadal.Menorca.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/38/Calesmorts_o_Cala_Morts.Es_Mercadal.Menorca.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Calesmorts_o_Cala_Morts.Es_Mercadal.Menorca.jpg",
+  "imageCredit": "Carlos Venegas Gavilán · CC BY-SA 4.0"
 }

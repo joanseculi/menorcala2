@@ -20,8 +20,8 @@
   "crowd": 3,
   "lat": 40.00360,
   "lng": 3.79824,
-  "image": "",
-  "imageFull": "",
-  "imageSource": "",
-  "imageCredit": ""
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/07769_Cales_Piques%2C_Illes_Balears%2C_Spain_-_panoramio_%281%29.jpg/960px-07769_Cales_Piques%2C_Illes_Balears%2C_Spain_-_panoramio_%281%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/f/f3/07769_Cales_Piques%2C_Illes_Balears%2C_Spain_-_panoramio_%281%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:07769_Cales_Piques,_Illes_Balears,_Spain_-_panoramio_(1).jpg",
+  "imageCredit": "Paul Foster · CC BY 3.0"
 }
