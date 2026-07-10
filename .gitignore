@@ -1,5 +1,5 @@
-public/.vscode/
-public/.claude/
-public/menorca.zip
-public/server.js
+.vscode/
+.claude/
+menorca.zip
+server.js
 node_modules/
