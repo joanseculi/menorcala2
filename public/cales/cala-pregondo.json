@@ -1,0 +1,27 @@
+{
+  "id": "cala-pregondo",
+  "name": "Cala Pregondó",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🪨",
+  "desc": "La germana petita i encara més tranquil·la de Pregonda. Cala de roca i sorra amb molt pocs banyistes.",
+  "length": 70,
+  "width": 20,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 3200,
+  "walkHours": 0.9,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 1,
+  "lat": 40.05633,
+  "lng": 4.04524,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cala_Pregonda%2C_Menorca_-_50245703838.jpg/960px-Cala_Pregonda%2C_Menorca_-_50245703838.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/0/06/Cala_Pregonda%2C_Menorca_-_50245703838.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Pregonda,_Menorca_-_50245703838.jpg",
+  "imageCredit": "Nicolas Vigier · CC0"
+}

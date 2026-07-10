@@ -1,0 +1,27 @@
+{
+  "id": "cala-macarella",
+  "name": "Cala Macarella",
+  "zone": "Sud · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "La cala de postal de Menorca per excel·lència, amb pins penjant sobre aigües turqueses. Va més plena al migdia.",
+  "length": 170,
+  "width": 50,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 1500,
+  "walkHours": 0.4,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 8,
+  "lat": 39.9387,
+  "lng": 3.93709,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cala_Macarella.jpg/960px-Cala_Macarella.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cala_Macarella.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Macarella.jpg",
+  "imageCredit": "Paul Stephenson · CC BY 2.0"
+}

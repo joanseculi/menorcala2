@@ -1,0 +1,27 @@
+{
+  "id": "cala-tortuga",
+  "name": "Cala Tortuga",
+  "zone": "Nord · Es Grau (Parc Natural)",
+  "emoji": "🐢",
+  "desc": "Cala verge dins del Parc Natural de s'Albufera, amb sorra daurada i un estany al darrere. Una de les joies del nord menys massificades.",
+  "length": 180,
+  "width": 35,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 2500,
+  "walkHours": 0.75,
+  "water": "Cristal·lina",
+  "sunHours": 9,
+  "crowd": 3,
+  "lat": 39.98884,
+  "lng": 4.25503,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Cam%C3%AD_de_Cavalls_2%E2%80%94Platja_d%27en_Tortuga_%28Arenal_de_Morella%29_1.jpg/960px-Cam%C3%AD_de_Cavalls_2%E2%80%94Platja_d%27en_Tortuga_%28Arenal_de_Morella%29_1.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Cam%C3%AD_de_Cavalls_2%E2%80%94Platja_d%27en_Tortuga_%28Arenal_de_Morella%29_1.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cam%C3%AD_de_Cavalls_2%E2%80%94Platja_d%27en_Tortuga_(Arenal_de_Morella)_1.jpg",
+  "imageCredit": "Nicolas G. Mertens · CC BY-SA 4.0"
+}

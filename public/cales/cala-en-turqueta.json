@@ -1,0 +1,27 @@
+{
+  "id": "cala-en-turqueta",
+  "name": "Cala en Turqueta",
+  "zone": "Sud · Ciutadella",
+  "emoji": "🩵",
+  "desc": "Un clàssic del sud amb aigües turqueses i pins. Té aparcament proper i una baixada curta i fàcil.",
+  "length": 160,
+  "width": 45,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 7,
+  "lat": 39.93254,
+  "lng": 3.91498,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cala_en_Turqueta_%2837377388482%29.jpg/960px-Cala_en_Turqueta_%2837377388482%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cala_en_Turqueta_%2837377388482%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_en_Turqueta_(37377388482).jpg",
+  "imageCredit": "Ben Salter from Wales · CC BY 2.0"
+}

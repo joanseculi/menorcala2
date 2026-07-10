@@ -1,0 +1,27 @@
+{
+  "id": "cala-mica",
+  "name": "Cala Mica",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🪨",
+  "desc": "Petita cala de sorra rogenca prop de Cavalleria, sovint amb molt poca gent. Ambient verge i autèntic.",
+  "length": 90,
+  "width": 25,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 600,
+  "walkHours": 0.18,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 2,
+  "lat": 40.05642,
+  "lng": 4.06537,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/B%C3%BAnker_en_cala_Mica_Cala_Mica_%283_de_agosto_de_2014%2C_Es_Mercader%29_04.jpg/960px-B%C3%BAnker_en_cala_Mica_Cala_Mica_%283_de_agosto_de_2014%2C_Es_Mercader%29_04.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/c2/B%C3%BAnker_en_cala_Mica_Cala_Mica_%283_de_agosto_de_2014%2C_Es_Mercader%29_04.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:B%C3%BAnker_en_cala_Mica_Cala_Mica_(3_de_agosto_de_2014,_Es_Mercader)_04.jpg",
+  "imageCredit": "Discasto · CC BY-SA 4.0"
+}

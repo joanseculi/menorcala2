@@ -1,0 +1,27 @@
+{
+  "id": "cala-pilar-algaiarens",
+  "name": "Algaiarens (La Vall)",
+  "zone": "Nord · Ciutadella",
+  "emoji": "🏝️",
+  "desc": "Dues platges bessones de sorra daurada dins una finca privada protegida. Entorn verge amb dunes i pinedes.",
+  "length": 250,
+  "width": 50,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 400,
+  "walkHours": 0.1,
+  "water": "Turquesa",
+  "sunHours": 8,
+  "crowd": 4,
+  "lat": 40.04611,
+  "lng": 3.92257,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Platja_bot.jpg/960px-Platja_bot.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Platja_bot.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Platja_bot.jpg",
+  "imageCredit": "Jordi Vera · Public domain"
+}

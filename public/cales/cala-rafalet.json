@@ -1,0 +1,27 @@
+{
+  "id": "cala-rafalet",
+  "name": "Cala Rafalet",
+  "zone": "Est · Sant Lluís",
+  "emoji": "🌳",
+  "desc": "Petita cala al final d'un barranc ombrívol i verd. Aigües fosques i profundes, molt fresca i recollida.",
+  "length": 50,
+  "width": 12,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 800,
+  "walkHours": 0.25,
+  "water": "Cristal·lina",
+  "sunHours": 7,
+  "crowd": 3,
+  "lat": 39.84108,
+  "lng": 4.29794,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rafalet.JPG/960px-Rafalet.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Rafalet.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Rafalet.JPG",
+  "imageCredit": "Alcau · CC BY 3.0"
+}

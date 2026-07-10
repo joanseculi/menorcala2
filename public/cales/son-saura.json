@@ -1,0 +1,27 @@
+{
+  "id": "son-saura",
+  "name": "Son Saura del Sud",
+  "zone": "Sud · Ciutadella",
+  "emoji": "🌴",
+  "desc": "Llarga platja verge de sorra blanca amb una pineda generosa que dona ombra. Doble cala amb molt d'espai.",
+  "length": 450,
+  "width": 60,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 900,
+  "walkHours": 0.25,
+  "water": "Cristal·lina",
+  "sunHours": 9,
+  "crowd": 5,
+  "lat": 39.92617,
+  "lng": 3.89444,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Arenal_de_Son_Saura_6.jpg/960px-Arenal_de_Son_Saura_6.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Arenal_de_Son_Saura_6.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Arenal_de_Son_Saura_6.jpg",
+  "imageCredit": "Alejandro Muñoz Cabrisas · CC BY-SA 4.0"
+}

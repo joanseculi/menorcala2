@@ -1,0 +1,27 @@
+{
+  "id": "cala-fustam",
+  "name": "Cala Fustam",
+  "zone": "Sud · Es Migjorn Gran",
+  "emoji": "🌿",
+  "desc": "Cala discreta entre Escorxada i Trebalúger, envoltada de vegetació. Refugi tranquil per als qui busquen silenci.",
+  "length": 100,
+  "width": 28,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 3600,
+  "walkHours": 1.05,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 2,
+  "lat": 39.92621,
+  "lng": 4.00093,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/2007_06_30_-_Fustam_01_%287381602102%29.jpg/960px-2007_06_30_-_Fustam_01_%287381602102%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2007_06_30_-_Fustam_01_%287381602102%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:2007_06_30_-_Fustam_01_(7381602102).jpg",
+  "imageCredit": "Boladevidre · CC BY-SA 2.0"
+}

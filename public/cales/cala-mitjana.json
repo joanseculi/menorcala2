@@ -1,0 +1,27 @@
+{
+  "id": "cala-mitjana",
+  "name": "Cala Mitjana",
+  "zone": "Sud · Ferreries",
+  "emoji": "🌊",
+  "desc": "Sorra blanca i parets de roca per saltar a l'aigua. Accessible amb una caminada curta des de l'aparcament de Cala Galdana.",
+  "length": 140,
+  "width": 50,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 1300,
+  "walkHours": 0.35,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 6,
+  "lat": 39.93447,
+  "lng": 3.97275,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cala_Mitjana%2C_Menorca_-_50127521481.jpg/960px-Cala_Mitjana%2C_Menorca_-_50127521481.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cala_Mitjana%2C_Menorca_-_50127521481.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Mitjana,_Menorca_-_50127521481.jpg",
+  "imageCredit": "Nicolas Vigier · CC0"
+}

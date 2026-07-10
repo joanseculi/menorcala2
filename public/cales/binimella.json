@@ -1,0 +1,27 @@
+{
+  "id": "binimella",
+  "name": "Binimel·là",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🧡",
+  "desc": "Platja de sorra fosca i còdols, porta d'entrada cap a Pregonda. Ambient salvatge i tranquil del nord.",
+  "length": 200,
+  "width": 40,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 300,
+  "walkHours": 0.08,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 4,
+  "lat": 40.05181,
+  "lng": 4.05381,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Playa_de_Binimel-l%C3%A0_Es_Mercadal_Menorca.jpg/960px-Playa_de_Binimel-l%C3%A0_Es_Mercadal_Menorca.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Playa_de_Binimel-l%C3%A0_Es_Mercadal_Menorca.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Playa_de_Binimel-l%C3%A0_Es_Mercadal_Menorca.jpg",
+  "imageCredit": "carlos venegas gavilán · CC BY-SA 4.0"
+}

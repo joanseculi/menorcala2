@@ -1,0 +1,27 @@
+{
+  "id": "cala-en-brut",
+  "name": "Cala en Brut",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🤿",
+  "desc": "Cala de roca sense sorra, amb plataformes i escales per saltar a l'aigua. Paradís per als amants del snorkel.",
+  "length": 60,
+  "width": 15,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 150,
+  "walkHours": 0.05,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 5,
+  "lat": 40.00072,
+  "lng": 3.80672,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cala%27n_Brut_Menorca.JPG/960px-Cala%27n_Brut_Menorca.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/4/40/Cala%27n_Brut_Menorca.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala%27n_Brut_Menorca.JPG",
+  "imageCredit": "No machine-readable author provided. 1997 assumed (based on copyright claims). · CC BY-SA 3.0"
+}

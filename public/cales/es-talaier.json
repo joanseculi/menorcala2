@@ -1,0 +1,27 @@
+{
+  "id": "es-talaier",
+  "name": "Es Talaier",
+  "zone": "Sud · Ciutadella",
+  "emoji": "🐚",
+  "desc": "Cala petita i recollida de sorra blanca finíssima, entre Son Saura i Turqueta. Aigües poc profundes i transparents.",
+  "length": 80,
+  "width": 30,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 1500,
+  "walkHours": 0.4,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 4,
+  "lat": 39.92698,
+  "lng": 3.90297,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Cala_des_Talaier_Ciudadella_Menorca_20180626_181652.jpg/960px-Cala_des_Talaier_Ciudadella_Menorca_20180626_181652.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/1/17/Cala_des_Talaier_Ciudadella_Menorca_20180626_181652.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_des_Talaier_Ciudadella_Menorca_20180626_181652.jpg",
+  "imageCredit": "Josefito123 · CC BY-SA 4.0"
+}

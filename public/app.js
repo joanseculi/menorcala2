@@ -1,0 +1,297 @@
+// ---- Estat ----
+let beaches = [];
+let activeFilter = "all";
+let query = "";
+let selectedId = null;
+let map;
+let markers = {}; // id -> L.circleMarker
+
+init();
+
+async function init() {
+  initMap();
+  try {
+    const ids = await fetch("cales/index.json").then((r) => r.json());
+    beaches = await Promise.all(
+      ids.map((id) => fetch(`cales/${id}.json`).then((r) => r.json()))
+    );
+  } catch (err) {
+    document.getElementById("detail").innerHTML =
+      "<p class='detail-empty'>⚠️ Obre la pàgina amb el servidor local (no amb file://).</p>";
+    console.error(err);
+    return;
+  }
+
+  renderStats();
+  drawMarkers();
+  bindControls();
+  render();
+}
+
+// ---- Mapa ----
+function initMap() {
+  map = L.map("map", { scrollWheelZoom: true }).setView([39.97, 4.05], 11);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+    attribution: "© OpenStreetMap, © CARTO",
+    maxZoom: 19,
+  }).addTo(map);
+}
+
+function crowdColor(c) {
+  if (c <= 3) return "#16a34a";
+  if (c <= 6) return "#d97706";
+  return "#dc2626";
+}
+function crowdClass(c) {
+  if (c <= 3) return "low";
+  if (c <= 6) return "mid";
+  return "high";
+}
+function crowdText(c) {
+  if (c <= 1) return "Gairebé buida";
+  if (c <= 3) return "Tranquil·la";
+  if (c <= 6) return "Moderada";
+  if (c <= 8) return "Concorreguda";
+  return "Plena";
+}
+
+function drawMarkers() {
+  beaches.forEach((b) => {
+    const m = L.circleMarker([b.lat, b.lng], {
+      radius: 9,
+      color: "#fff",
+      weight: 2,
+      fillColor: crowdColor(b.crowd),
+      fillOpacity: 0.95,
+    }).addTo(map);
+
+    m.bindTooltip(b.name, { direction: "top", className: "cala-marker-label", offset: [0, -6] });
+    m.bindPopup(mapPopupHTML(b), { maxWidth: 240, className: "cala-popup" });
+    m.on("click", () => select(b.id, true));
+    markers[b.id] = m;
+  });
+
+  // ajustar la vista a tots els marcadors
+  const group = L.featureGroup(Object.values(markers));
+  map.fitBounds(group.getBounds().pad(0.12));
+}
+
+// HTML del popup del mapa (foto petita + nom); la foto obre el lightbox
+function mapPopupHTML(b) {
+  const img = b.image
+    ? `<img class="mp-img" src="${b.image}" alt="${b.name}" onclick="openLightbox('${b.id}')" title="Clica per ampliar" />`
+    : `<div class="mp-noimg">${b.emoji}</div>`;
+  return `<div class="map-popup">
+    ${img}
+    <div class="mp-name">${b.emoji} ${b.name}</div>
+    <div class="mp-zone">${b.zone}</div>
+  </div>`;
+}
+
+// ---- Estadístiques ----
+function renderStats() {
+  animateNumber("statTotal", beaches.length);
+  animateNumber("statHidden", beaches.filter((b) => b.crowd <= 3).length);
+  animateNumber("statFoot", beaches.filter((b) => !b.access.cotxe && b.access.peu).length);
+}
+function animateNumber(id, target) {
+  const el = document.getElementById(id);
+  el.textContent = target;
+  let n = 0;
+  const step = Math.max(1, Math.round(target / 24));
+  const timer = setInterval(() => {
+    n = Math.min(target, n + step);
+    el.textContent = n;
+    if (n >= target) clearInterval(timer);
+  }, 28);
+}
+
+// ---- Controls ----
+function bindControls() {
+  document.getElementById("search").addEventListener("input", (e) => {
+    query = e.target.value.trim().toLowerCase();
+    render();
+  });
+  document.getElementById("filters").addEventListener("click", (e) => {
+    const btn = e.target.closest(".chip");
+    if (!btn) return;
+    document.querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
+    btn.classList.add("active");
+    activeFilter = btn.dataset.filter;
+    render();
+  });
+
+  document.querySelectorAll("[data-lbclose]").forEach((el) =>
+    el.addEventListener("click", closeLightbox)
+  );
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeLightbox();
+  });
+}
+
+function matchesFilter(b) {
+  switch (activeFilter) {
+    case "hidden": return b.crowd <= 3;
+    case "foot": return !b.access.cotxe && b.access.peu;
+    case "car": return b.access.cotxe;
+    case "boat": return b.access.vaixell;
+    case "clear": return b.water === "Turquesa";
+    default: return true;
+  }
+}
+function matchesQuery(b) {
+  if (!query) return true;
+  return (b.name + " " + b.zone).toLowerCase().includes(query);
+}
+function isVisible(b) { return matchesFilter(b) && matchesQuery(b); }
+
+// ---- Render llista + marcadors visibles ----
+function render() {
+  const visible = beaches
+    .filter(isVisible)
+    .sort((a, b) => a.name.localeCompare(b.name, "ca"));
+
+  // mostrar/amagar marcadors segons filtres
+  beaches.forEach((b) => {
+    const m = markers[b.id];
+    if (isVisible(b)) {
+      if (!map.hasLayer(m)) m.addTo(map);
+    } else {
+      if (map.hasLayer(m)) map.removeLayer(m);
+    }
+  });
+
+  const list = document.getElementById("calaList");
+  document.getElementById("listCount").textContent =
+    `${visible.length} ${visible.length === 1 ? "cala" : "cales"}`;
+  list.innerHTML = visible
+    .map(
+      (b) => `<li data-id="${b.id}" class="${b.id === selectedId ? "active" : ""}">
+        <span class="dot ${crowdClass(b.crowd)}"></span>${b.name}</li>`
+    )
+    .join("");
+  list.querySelectorAll("li").forEach((li) =>
+    li.addEventListener("click", () => select(li.dataset.id, true))
+  );
+}
+
+// ---- Selecció ----
+function select(id, fly) {
+  selectedId = id;
+  const b = beaches.find((x) => x.id === id);
+  if (!b) return;
+
+  // ressaltar marcador
+  Object.entries(markers).forEach(([mid, m]) => {
+    const sel = mid === id;
+    m.setStyle({ radius: sel ? 13 : 9, weight: sel ? 3 : 2 });
+    if (sel) m.bringToFront();
+  });
+
+  if (fly) map.flyTo([b.lat, b.lng], 14, { duration: 0.6 });
+
+  renderDetail(b);
+  // actualitzar estat actiu a la llista
+  document.querySelectorAll(".cala-list li").forEach((li) =>
+    li.classList.toggle("active", li.dataset.id === id)
+  );
+}
+
+function fmtWalk(hours) {
+  const mins = Math.round(hours * 60);
+  if (mins < 60) return `${mins} min`;
+  const h = Math.floor(mins / 60);
+  const m = mins % 60;
+  return m ? `${h} h ${m} min` : `${h} h`;
+}
+function dAcc(on, emoji, label) {
+  return `<span class="d-acc ${on ? "" : "off"}">${emoji} ${label}</span>`;
+}
+
+function renderDetail(b) {
+  const walkBlock = b.access.peu
+    ? `
+      <div class="d-stat">
+        <div class="label">🥾 Distància a peu</div>
+        <div class="value">${b.walkDistance} <small>m</small></div>
+      </div>
+      <div class="d-stat">
+        <div class="label">⏱️ Temps caminant</div>
+        <div class="value">${fmtWalk(b.walkHours)}</div>
+      </div>`
+    : "";
+
+  const photo = b.image
+    ? `<div class="d-top has-photo" data-lb="${b.id}" title="Clica per ampliar la imatge">
+         <img class="d-photo" src="${b.image}" alt="${b.name}" loading="lazy" />
+         <span class="d-zoom">🔍 Ampliar</span>
+         <span class="d-crowd-badge"><span class="dot ${crowdClass(b.crowd)}"></span>${b.crowd}/10</span>
+       </div>
+       ${b.imageCredit ? `<p class="d-credit">📷 ${b.imageCredit}</p>` : ""}`
+    : `<div class="d-top">
+         <span class="d-emoji">${b.emoji}</span>
+         <span class="d-crowd-badge"><span class="dot ${crowdClass(b.crowd)}"></span>${b.crowd}/10</span>
+       </div>`;
+
+  document.getElementById("detail").innerHTML = `
+    ${photo}
+    <div class="d-head">
+      <span class="d-zone">${b.zone}</span>
+      <h2 class="d-name">${b.name}</h2>
+      <p class="d-desc">${b.desc}</p>
+    </div>
+
+    <div class="d-grid">
+      <div class="d-stat"><div class="label">📏 Llargada</div><div class="value">${b.length} <small>m</small></div></div>
+      <div class="d-stat"><div class="label">↔️ Amplada</div><div class="value">${b.width} <small>m</small></div></div>
+      <div class="d-stat"><div class="label">💧 Estat de l'aigua</div><div class="value">${b.water}</div></div>
+      <div class="d-stat"><div class="label">☀️ Hores de sol</div><div class="value">${b.sunHours} <small>h/dia</small></div></div>
+      ${walkBlock}
+    </div>
+
+    <div class="d-section">
+      <h3>Com s'hi accedeix</h3>
+      <div class="d-access">
+        ${dAcc(b.access.cotxe, "🚗", "Cotxe")}
+        ${dAcc(b.access.peu, "🥾", "A peu")}
+        ${dAcc(b.access.bicicleta, "🚲", "Bicicleta")}
+        ${dAcc(b.access.moto, "🏍️", "Moto")}
+        ${dAcc(b.access.vaixell, "⛵", "Vaixell")}
+      </div>
+    </div>
+
+    <div class="d-section">
+      <h3>Nivell d'afluència</h3>
+      <div class="crowd-bar"><div class="crowd-fill" style="width:${b.crowd * 10}%"></div></div>
+      <p class="crowd-label"><strong>${b.crowd}/10 · ${crowdText(b.crowd)}</strong> ${
+        b.crowd <= 3 ? "— perfecta per desconnectar 🤫" : ""
+      }</p>
+    </div>
+  `;
+
+  const photoEl = document.querySelector(".d-top.has-photo");
+  if (photoEl) photoEl.addEventListener("click", () => openLightbox(photoEl.dataset.lb));
+}
+
+// ---- Lightbox (imatge ampliada) ----
+function openLightbox(id) {
+  const b = beaches.find((x) => x.id === id);
+  if (!b || !b.image) return;
+  const lb = document.getElementById("lightbox");
+  const img = document.getElementById("lbImg");
+  img.src = b.imageFull || b.image;
+  img.alt = b.name;
+  const credit = b.imageCredit ? ` · 📷 ${b.imageCredit}` : "";
+  const link = b.imageSource
+    ? ` · <a href="${b.imageSource}" target="_blank" rel="noopener">Font</a>`
+    : "";
+  document.getElementById("lbCaption").innerHTML = `<strong>${b.name}</strong>${credit}${link}`;
+  lb.hidden = false;
+  document.body.style.overflow = "hidden";
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").hidden = true;
+  document.getElementById("lbImg").src = "";
+  document.body.style.overflow = "";
+}

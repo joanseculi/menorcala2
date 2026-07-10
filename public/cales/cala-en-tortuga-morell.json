@@ -1,0 +1,27 @@
+{
+  "id": "cala-en-tortuga-morell",
+  "name": "Cala Morell",
+  "zone": "Nord · Ciutadella",
+  "emoji": "🏛️",
+  "desc": "Cala de roca i sorra envoltada de coves prehistòriques excavades a la pedra. Llocs ideals per al snorkel.",
+  "length": 70,
+  "width": 25,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 200,
+  "walkHours": 0.06,
+  "water": "Turquesa",
+  "sunHours": 8,
+  "crowd": 4,
+  "lat": 40.0531,
+  "lng": 3.88243,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Vista_general_del_promontori_on_s%27ubica_el_poblat_prehist%C3%B2ric_de_Cala_Morell_%28Menorca%29.JPG/960px-Vista_general_del_promontori_on_s%27ubica_el_poblat_prehist%C3%B2ric_de_Cala_Morell_%28Menorca%29.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Vista_general_del_promontori_on_s%27ubica_el_poblat_prehist%C3%B2ric_de_Cala_Morell_%28Menorca%29.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Vista_general_del_promontori_on_s%27ubica_el_poblat_prehist%C3%B2ric_de_Cala_Morell_(Menorca).JPG",
+  "imageCredit": "Sa monea · CC BY-SA 3.0"
+}

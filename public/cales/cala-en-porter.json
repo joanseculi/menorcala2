@@ -1,0 +1,27 @@
+{
+  "id": "cala-en-porter",
+  "name": "Cala en Porter",
+  "zone": "Sud · Alaior",
+  "emoji": "🏘️",
+  "desc": "Cala encaixonada entre penya-segats amb sorra ampla. Més coneguda, però amb accés fàcil i serveis a prop.",
+  "length": 160,
+  "width": 40,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 250,
+  "walkHours": 0.07,
+  "water": "Cristal·lina",
+  "sunHours": 9,
+  "crowd": 7,
+  "lat": 39.86869,
+  "lng": 4.13513,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cala%27n_Porter_%28Menorca%29.JPG/960px-Cala%27n_Porter_%28Menorca%29.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cala%27n_Porter_%28Menorca%29.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala%27n_Porter_(Menorca).JPG",
+  "imageCredit": "Maria Carmen · CC BY-SA 3.0 es"
+}

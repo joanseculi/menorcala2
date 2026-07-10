@@ -1,0 +1,27 @@
+{
+  "id": "cala-pilar",
+  "name": "Cala del Pilar",
+  "zone": "Nord · Ciutadella",
+  "emoji": "🌲",
+  "desc": "S'hi arriba després de travessar un bosc d'alzines i baixar una duna. Aïllada, salvatge i amb un fort caràcter verge.",
+  "length": 200,
+  "width": 45,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 3500,
+  "walkHours": 1,
+  "water": "Turquesa",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.05112,
+  "lng": 3.9775,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Cala_del_Pilar_-_Menorca_-_panoramio.jpg/960px-Cala_del_Pilar_-_Menorca_-_panoramio.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cala_del_Pilar_-_Menorca_-_panoramio.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_del_Pilar_-_Menorca_-_panoramio.jpg",
+  "imageCredit": "isol · CC BY-SA 3.0"
+}

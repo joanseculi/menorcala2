@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cales Amagades de Menorca · Descobreix platges desconegudes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-badge">🐚</span>
+      <div>
+        <h1>Cales Amagades de Menorca</h1>
+        <p class="subtitle">Descobreix les platges més desconegudes de l'illa — clica un punt al mapa</p>
+      </div>
+    </div>
+    <div class="topstats">
+      <div><strong id="statTotal">0</strong><span>cales</span></div>
+      <div><strong id="statHidden">0</strong><span>tranquil·les</span></div>
+      <div><strong id="statFoot">0</strong><span>només a peu</span></div>
+    </div>
+  </header>
+
+  <section class="controls">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" class="search-icon" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="search" type="search" placeholder="Cerca una cala…" autocomplete="off" />
+    </div>
+    <div class="filters" id="filters">
+      <button class="chip active" data-filter="all">Totes</button>
+      <button class="chip" data-filter="hidden">🤫 Amagades</button>
+      <button class="chip" data-filter="foot">🥾 Només a peu</button>
+      <button class="chip" data-filter="car">🚗 Amb cotxe</button>
+      <button class="chip" data-filter="boat">⛵ En vaixell</button>
+      <button class="chip" data-filter="clear">💎 Turquesa</button>
+    </div>
+    <span class="legend">
+      <span class="lg"><i class="dot low"></i>tranquil·la</span>
+      <span class="lg"><i class="dot mid"></i>moderada</span>
+      <span class="lg"><i class="dot high"></i>plena</span>
+    </span>
+  </section>
+
+  <main class="layout">
+    <section class="map-col">
+      <div id="map"></div>
+      <aside class="list-panel">
+        <p class="list-count" id="listCount"></p>
+        <ul class="cala-list" id="calaList"></ul>
+      </aside>
+    </section>
+
+    <aside class="detail-col" id="detail">
+      <div class="detail-empty" id="detailEmpty">
+        <div class="detail-empty-emoji">🏝️</div>
+        <h2>Tria una cala</h2>
+        <p>Clica un punt al mapa o un nom de la llista per veure'n totes les dades: mides, com s'hi accedeix, estat de l'aigua, hores de sol i quanta gent hi sol haver.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>Fet amb 🩵 per descobrir la Menorca amagada · Dades i coordenades orientatives — respecta sempre l'entorn natural · Imatges de Wikimedia Commons</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lb-backdrop" data-lbclose></div>
+    <figure class="lb-figure">
+      <button class="lb-close" data-lbclose aria-label="Tancar">✕</button>
+      <img id="lbImg" src="" alt="" />
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

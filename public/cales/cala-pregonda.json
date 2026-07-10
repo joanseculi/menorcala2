@@ -1,0 +1,27 @@
+{
+  "id": "cala-pregonda",
+  "name": "Cala Pregonda",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🏜️",
+  "desc": "Sorra rogenca i roques d'aspecte lunar que la fan única a Menorca. Paisatge gairebé marcià i aigües tranquil·les.",
+  "length": 150,
+  "width": 40,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 3000,
+  "walkHours": 0.83,
+  "water": "Cristal·lina",
+  "sunHours": 9,
+  "crowd": 4,
+  "lat": 40.05691,
+  "lng": 4.04055,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cala_Pregonda%2C_Menorca_-_50245703838.jpg/960px-Cala_Pregonda%2C_Menorca_-_50245703838.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/0/06/Cala_Pregonda%2C_Menorca_-_50245703838.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Pregonda,_Menorca_-_50245703838.jpg",
+  "imageCredit": "Nicolas Vigier · CC0"
+}

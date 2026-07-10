@@ -1,0 +1,27 @@
+{
+  "id": "macarelleta",
+  "name": "Macarelleta",
+  "zone": "Sud · Ciutadella",
+  "emoji": "💙",
+  "desc": "Petita cala de postal amb aigües d'un blau impossible. Cal baixar per un camí de roques des de Macarella.",
+  "length": 90,
+  "width": 25,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 600,
+  "walkHours": 0.2,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 6,
+  "lat": 39.93616,
+  "lng": 3.93484,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cala_Macarelleta_-_50130693907.jpg/960px-Cala_Macarelleta_-_50130693907.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cala_Macarelleta_-_50130693907.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Macarelleta_-_50130693907.jpg",
+  "imageCredit": "Nicolas Vigier · CC0"
+}

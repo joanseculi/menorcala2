@@ -1,0 +1,27 @@
+{
+  "id": "cala-escorxada",
+  "name": "Cala Escorxada",
+  "zone": "Sud · Es Migjorn Gran",
+  "emoji": "🏝️",
+  "desc": "Una de les més verges del sud. Caminada llarga pel barranc o arribada en barca; recompensa amb sorra fina i pins fins a l'aigua.",
+  "length": 120,
+  "width": 30,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 4000,
+  "walkHours": 1.17,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 2,
+  "lat": 39.92531,
+  "lng": 4.00527,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Menorca%2C_Cala_Escorxada_%2821109592490%29.jpg/960px-Menorca%2C_Cala_Escorxada_%2821109592490%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/8/80/Menorca%2C_Cala_Escorxada_%2821109592490%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Menorca,_Cala_Escorxada_(21109592490).jpg",
+  "imageCredit": "RD_Elsie from Sansepolcro (AR), Italy · CC BY 2.0"
+}

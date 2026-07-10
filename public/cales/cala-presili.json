@@ -1,0 +1,27 @@
+{
+  "id": "cala-presili",
+  "name": "Cala Presili",
+  "zone": "Nord · Es Grau (Parc Natural)",
+  "emoji": "🦩",
+  "desc": "Veïna de Cala Tortuga, sota el far de Favàritx. Paisatge de pissarra negra i sorra clara, dins del Parc Natural.",
+  "length": 110,
+  "width": 30,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 1800,
+  "walkHours": 0.5,
+  "water": "Cristal·lina",
+  "sunHours": 9,
+  "crowd": 3,
+  "lat": 39.9925,
+  "lng": 4.2555,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cala_Presili_%28122327099%29.jpeg/960px-Cala_Presili_%28122327099%29.jpeg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Cala_Presili_%28122327099%29.jpeg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Presili_(122327099).jpeg",
+  "imageCredit": "Victor Gabriel · CC BY 3.0"
+}

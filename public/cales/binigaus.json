@@ -1,0 +1,27 @@
+{
+  "id": "binigaus",
+  "name": "Platja de Binigaus",
+  "zone": "Sud · Es Migjorn Gran",
+  "emoji": "🏜️",
+  "desc": "Platja oberta i àmplia, menys coneguda que les veïnes. Bona per passejar i amb una cova famosa, sa Cova dels Coloms, a prop.",
+  "length": 300,
+  "width": 55,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": true,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 1200,
+  "walkHours": 0.33,
+  "water": "Cristal·lina",
+  "sunHours": 9,
+  "crowd": 4,
+  "lat": 39.91929,
+  "lng": 4.02795,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Platja_de_Binigaus%2C_Menorca_%2814291583412%29.jpg/960px-Platja_de_Binigaus%2C_Menorca_%2814291583412%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/2/27/Platja_de_Binigaus%2C_Menorca_%2814291583412%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Platja_de_Binigaus,_Menorca_(14291583412).jpg",
+  "imageCredit": "Paul Stephenson from London · CC BY 2.0"
+}

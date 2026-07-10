@@ -1,0 +1,27 @@
+{
+  "id": "cala-trebaluger",
+  "name": "Cala Trebalúger",
+  "zone": "Sud · Es Migjorn Gran",
+  "emoji": "🏞️",
+  "desc": "Desembocadura d'un barranc verd amb sorra daurada. Remota i preciosa, ideal per fugir de la gent.",
+  "length": 130,
+  "width": 35,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 3800,
+  "walkHours": 1.1,
+  "water": "Turquesa",
+  "sunHours": 9,
+  "crowd": 2,
+  "lat": 39.93108,
+  "lng": 3.98975,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cala_Trebal%C3%BAger_-_50127497981.jpg/960px-Cala_Trebal%C3%BAger_-_50127497981.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Cala_Trebal%C3%BAger_-_50127497981.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Trebal%C3%BAger_-_50127497981.jpg",
+  "imageCredit": "Nicolas Vigier · CC0"
+}
