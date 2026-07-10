@@ -1,6 +1,6 @@
 {
-  "id": "cala-pudenta",
-  "name": "Cala Pudenta",
+  "id": "cala-pudent",
+  "name": "Cala Pudent",
   "zone": "Nord · Es Mercadal",
   "emoji": "🪨",
   "desc": "Petita cala que rep el seu nom del olor sulfurosa que de vegades es perceb. Tot i això, les seves aigües són cristal·lines i perfectes per al snorkel.",
@@ -20,8 +20,8 @@
   "crowd": 3,
   "lat": 40.041688,
   "lng": 4.159371,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cala_Pudenta_%2821293078065%29.jpg/960px-Cala_Pudenta_%2821293078065%29.jpg",
-  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cala_Pudenta_%2821293078065%29.jpg",
-  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Pudenta_(21293078065).jpg",
-  "imageCredit": "RD_Elsie · CC BY 2.0"
+  "image": "https://www.mymenorca.info/DIRECTORY/pictures/place-full/1/23.05.06.18.51-1683391905.454-22486395.jpg",
+  "imageFull": "https://www.mymenorca.info/DIRECTORY/pictures/place-full/1/23.05.06.18.51-1683391905.454-22486395.jpg",
+  "imageSource": "https://www.mymenorca.info/DIRECTORY/pictures/place-full/1/23.05.06.18.51-1683391905.454-22486395.jpg",
+  "imageCredit": ""
 }

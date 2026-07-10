@@ -458,5 +458,13 @@ document.getElementById("addForm").addEventListener("submit", (e) => {
   a.download = `${id}.json`;
   a.click();
   URL.revokeObjectURL(url);
+
+  const toast = document.createElement("div");
+  toast.className = "add-toast";
+  toast.innerHTML = `✅ Fitxer <strong>${id}.json</strong> descarregat!<br><span>📩 Envieu-lo a <strong>joan.seculi@gmail.com</strong> perquè s'actualitzi el web.</span>`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.classList.add("show"), 10);
+  setTimeout(() => { toast.classList.remove("show"); setTimeout(() => toast.remove(), 400); }, 5000);
+
   closeAddModal();
 });

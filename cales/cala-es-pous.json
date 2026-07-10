@@ -3,7 +3,7 @@
   "name": "Cala es Pous",
   "zone": "Oest · Ciutadella",
   "emoji": "🪨",
-  "desc": "Petit racó de còdols situat a la costa nord de Ciutadella, prop de la urbanització de Cala Morell. Les seves aigües cristal·lines i el seu entorn natural el converteixen en un lloc tranquil i pintoresc.",
+  "desc": "Petit racó de còdols situat a la costa nord de Ciutadella, prop de la urbanització de Cala Morell. Les seves aigües cristal·lines i el seu entorn natural el converteixen en un lloc tranquil i pintoresc. Platja nudista.",
   "length": 5,
   "width": 10,
   "access": {
@@ -20,8 +20,8 @@
   "crowd": 3,
   "lat": 40.050153,
   "lng": 3.826487,
-  "image": "",
-  "imageFull": "",
-  "imageSource": "",
+  "image": "https://media.illesbalears.travel/rrtt-menorca-cala-cales-pous-img1.jpg",
+  "imageFull": "https://media.illesbalears.travel/rrtt-menorca-cala-cales-pous-img1.jpg",
+  "imageSource": "https://media.illesbalears.travel/rrtt-menorca-cala-cales-pous-img1.jpg",
   "imageCredit": ""
 }

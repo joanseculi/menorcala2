@@ -1,6 +1,6 @@
 {
-  "id": "macar-ferragut",
-  "name": "Es Macar de Ferragut",
+  "id": "macar-farragut",
+  "name": "Es Macar de Farragut",
   "zone": "Nord · Es Mercadal",
   "emoji": "🪨",
   "desc": "Macar tradicional emprat pels pescadors i que avui manté l'encant d'un port natural. Ideal per fer-hi parada amb vaixell i gaudir d'un bany en aigües tranquil·les.",
@@ -20,8 +20,8 @@
   "crowd": 3,
   "lat": 40.05835,
   "lng": 4.07067,
-  "image": "",
-  "imageFull": "",
-  "imageSource": "",
+  "image": "https://media.illesbalears.travel/rrtt-menorca-playa-de-ferragut-img1.jpg",
+  "imageFull": "https://media.illesbalears.travel/rrtt-menorca-playa-de-ferragut-img1.jpg",
+  "imageSource": "https://media.illesbalears.travel/rrtt-menorca-playa-de-ferragut-img1.jpg",
   "imageCredit": ""
 }

@@ -4,7 +4,7 @@
   "zone": "Nord · Maó",
   "emoji": "🏖️",
   "desc": "Petita cala verge dins el Parc Natural de s'Albufera des Grau. D'accés exclusivament marítim o a peu, ofereix un entorn tranquil i poc concorregut.",
-  "length": 30,
+  "length": 300,
   "width": 15,
   "access": {
     "cotxe": false,
@@ -20,8 +20,8 @@
   "crowd": 3,
   "lat": 39.98251,
   "lng": 4.25836,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cam%C3%AD_de_Cavalls_2%E2%80%94Cala_Morella_Nou.jpg/960px-Cam%C3%AD_de_Cavalls_2%E2%80%94Cala_Morella_Nou.jpg",
-  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cam%C3%AD_de_Cavalls_2%E2%80%94Cala_Morella_Nou.jpg",
-  "imageSource": "https://commons.wikimedia.org/wiki/File:Cam%C3%AD_de_Cavalls_2%E2%80%94Cala_Morella_Nou.jpg",
-  "imageCredit": "Nicolas G. Mertens · CC BY-SA 4.0"
+  "image": "https://media.illesbalears.travel/rrtt-menorca-cala-morella-nou-img0.jpg",
+  "imageFull": "https://media.illesbalears.travel/rrtt-menorca-cala-morella-nou-img0.jpg",
+  "imageSource": "https://media.illesbalears.travel/rrtt-menorca-cala-morella-nou-img0.jpg",
+  "imageCredit": ""
 }
