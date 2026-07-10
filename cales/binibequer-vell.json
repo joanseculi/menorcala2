@@ -1,0 +1,27 @@
+{
+  "id": "binibequer-vell",
+  "name": "Binibèquer Vell",
+  "zone": "Sud · Sant Lluís",
+  "emoji": "🏖️",
+  "desc": "Poble de pescadors reconvertit en museu de l'aigua, amb casetes blanques i un petit port esportiu. Les platgetes de sorra al voltant són molt fotogèniques i amb ambient pintoresc.",
+  "length": 40,
+  "width": 20,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 100,
+  "walkHours": 0.03,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 4,
+  "lat": 39.824544,
+  "lng": 4.224287,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Binibeca_Vell%2C_Menorca.jpg/960px-Binibeca_Vell%2C_Menorca.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Binibeca_Vell%2C_Menorca.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Binibeca_Vell,_Menorca.jpg",
+  "imageCredit": "MontanNito · CC BY-SA 3.0"
+}

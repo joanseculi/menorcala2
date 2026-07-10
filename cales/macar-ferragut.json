@@ -1,0 +1,27 @@
+{
+  "id": "macar-ferragut",
+  "name": "Es Macar de Ferragut",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🪨",
+  "desc": "Macar tradicional emprat pels pescadors i que avui manté l'encant d'un port natural. Ideal per fer-hi parada amb vaixell i gaudir d'un bany en aigües tranquil·les.",
+  "length": 60,
+  "width": 25,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.05835,
+  "lng": 4.07067,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

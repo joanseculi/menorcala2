@@ -1,0 +1,27 @@
+{
+  "id": "macar-tosqueta",
+  "name": "Macar d'en Tosqueta",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🪨",
+  "desc": "Macar rocallós que conserva l'esperit mariner de Menorca. Les ones s'estavellen contra les pedres creant un espectacle natural fascinant.",
+  "length": 50,
+  "width": 20,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.05808,
+  "lng": 4.16474,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

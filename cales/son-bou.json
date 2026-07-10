@@ -1,0 +1,27 @@
+{
+  "id": "son-bou",
+  "name": "Son Bou",
+  "zone": "Nord · Alaior",
+  "emoji": "🏖️",
+  "desc": "La platja més llarga de Menorca, amb quilòmetres de sorra fina i aigües poc profundes. Destinació familiar per excel·lència amb tots els serveis i activitats nàutiques disponibles.",
+  "length": 2400,
+  "width": 120,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.90156,
+  "lng": 4.06749,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Son_Bou2..jpg/960px-Son_Bou2..jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Son_Bou2..jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Son_Bou2..jpg",
+  "imageCredit": "Juan Carlos Gavari Starkie · CC BY-SA 4.0"
+}

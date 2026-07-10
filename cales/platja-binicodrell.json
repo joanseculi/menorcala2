@@ -1,0 +1,27 @@
+{
+  "id": "platja-binicodrell",
+  "name": "Platja de Binicodrell",
+  "zone": "Sud · Es Migjorn Gran",
+  "emoji": "🏖️",
+  "desc": "Platja tranquil·la de sorra i pedra al costat de Son Bou, menys concorreguda i més natural. Aigües clares i fons interessant per a observar la vida marina amb màscara.",
+  "length": 490,
+  "width": 27,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.91669,
+  "lng": 4.03424,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Platja_de_Sant_Adeodat_%2830_de_julio_de_2017%2C_es_Migjorn_Gran%29_02.jpg/960px-Platja_de_Sant_Adeodat_%2830_de_julio_de_2017%2C_es_Migjorn_Gran%29_02.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/5/54/Platja_de_Sant_Adeodat_%2830_de_julio_de_2017%2C_es_Migjorn_Gran%29_02.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Platja_de_Sant_Adeodat_(30_de_julio_de_2017,_es_Migjorn_Gran)_02.jpg",
+  "imageCredit": "Discasto · CC BY-SA 4.0"
+}

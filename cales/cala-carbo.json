@@ -1,0 +1,27 @@
+{
+  "id": "cala-carbo",
+  "name": "Cala Carbó",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🪨",
+  "desc": "Ampla cala de còdols situada a la zona nord de Menorca, prop d'Algaiarens. El seu entorn natural i les seves aigües cristal·lines ofereixen un paisatge de gran bellesa, ideal per a qui cerca tranquil·litat.",
+  "length": 220,
+  "width": 55,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.05833,
+  "lng": 3.93136,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

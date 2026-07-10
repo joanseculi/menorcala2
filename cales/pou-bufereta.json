@@ -1,0 +1,27 @@
+{
+  "id": "pou-bufereta",
+  "name": "Platja es Pou de sa Bufereta",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🏖️",
+  "desc": "Platja amagada que rep el nom del pou d'aigua dolça que es troba a prop. Sorra fina i aigua clara en un indret que sembla fora del temps.",
+  "length": 150,
+  "width": 40,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.04853,
+  "lng": 4.14248,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

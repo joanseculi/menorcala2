@@ -1,0 +1,27 @@
+{
+  "id": "arenal-sa-mesquida",
+  "name": "Arenal de sa Mesquida",
+  "zone": "Nord · Maó",
+  "emoji": "🏖️",
+  "desc": "Àmplia platja de sorra fina situada a prop de Maó, amb aigües cristal·lines i un entorn natural ben conservat. Ideal per a famílies i practicar esports nàutics.",
+  "length": 300,
+  "width": 50,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.91579,
+  "lng": 4.28629,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sa_mesquida.JPG/960px-Sa_mesquida.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sa_mesquida.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Sa_mesquida.JPG",
+  "imageCredit": "Seruba · CC BY-SA 3.0"
+}

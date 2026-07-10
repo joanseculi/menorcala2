@@ -1,0 +1,27 @@
+{
+  "id": "cales-piques",
+  "name": "Cales Piques",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Conjunt de petites cales de sorra situades al nord-oest de Ciutadella, en una zona poc urbanitzada. El seu aïllament relatiu i les seves aigües netes la fan una opció tranquil·la per als visitants.",
+  "length": 20,
+  "width": 25,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.00360,
+  "lng": 3.79824,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": "santandria",
+  "name": "Platja de Santandria",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Platja urbana amb sorra fina i daurada, situada en una petita cala prop del centre de Ciutadella. El seu passeig marítim i els seus serveis la converteixen en una opció còmoda per a un dia de platja.",
+  "length": 110,
+  "width": 25,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.97768,
+  "lng": 3.83916,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Menorca_-_Cala_Santandria_2.jpg/960px-Menorca_-_Cala_Santandria_2.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/9/93/Menorca_-_Cala_Santandria_2.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Menorca_-_Cala_Santandria_2.jpg",
+  "imageCredit": "Herodotptlomeu · CC BY-SA 4.0"
+}

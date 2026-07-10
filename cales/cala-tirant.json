@@ -1,0 +1,27 @@
+{
+  "id": "cala-tirant",
+  "name": "Cala Tirant",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🏖️",
+  "desc": "Ampla platja de sorra daurada que s'estén entre penya-segats suaus. Perfecta per a famílies, amb aigua poc profonda i servei de socorrisme a l'estiu.",
+  "length": 570,
+  "width": 90,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.04418,
+  "lng": 4.10567,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Cala_Tirant_%284_de_agosto_de_2015%2C_es_Mercadal%29_01.jpg/960px-Cala_Tirant_%284_de_agosto_de_2015%2C_es_Mercadal%29_01.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cala_Tirant_%284_de_agosto_de_2015%2C_es_Mercadal%29_01.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Tirant_(4_de_agosto_de_2015,_es_Mercadal)_01.jpg",
+  "imageCredit": ""
+}

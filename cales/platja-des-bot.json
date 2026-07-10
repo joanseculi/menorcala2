@@ -1,0 +1,27 @@
+{
+  "id": "platja-des-bot",
+  "name": "Platja des Bot",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Àmplia platja de sorra daurada situada al nord de Ciutadella, dins l'àrea natural d'Algaiarens. Les seves aigües poc profundes i el seu entorn verge la fan ideal per a famílies amb nens.",
+  "length": 150,
+  "width": 70,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.04962,
+  "lng": 3.92444,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Platja_bot.jpg/960px-Platja_bot.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Platja_bot.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Platja_bot.jpg",
+  "imageCredit": "Jordi Vera · Public domain"
+}

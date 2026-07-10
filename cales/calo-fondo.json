@@ -1,0 +1,27 @@
+{
+  "id": "calo-fondo",
+  "name": "Caló Fondo",
+  "zone": "Sud · Sant Lluís",
+  "emoji": "🪨",
+  "desc": "Cala petita i rocallosa entre Binibèquer Vell i Binissafúller, amb aigües profundes i molt transparents. Accés a peu per un camí entre pins, ideal per a banyar-se en silenci.",
+  "length": 150,
+  "width": 10,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 1,
+  "lat": 39.823009,
+  "lng": 4.225895,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Binib%C3%A8quer_Vell%2C_Menorca.JPG/960px-Binib%C3%A8quer_Vell%2C_Menorca.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/2/28/Binib%C3%A8quer_Vell%2C_Menorca.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Binibèquer_Vell,_Menorca.JPG",
+  "imageCredit": "José Burgos · CC BY-SA 3.0 ES"
+}

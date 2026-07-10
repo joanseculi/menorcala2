@@ -1,0 +1,27 @@
+{
+  "id": "sa-caleta",
+  "name": "Sa Caleta",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Petita cala de sorra fina situada entre Santandria i Ciutadella, amb aigües tranquil·les i cristal·lines. És un lloc ideal per a qui busca un bany relaxat lluny de les grans multituds.",
+  "length": 60,
+  "width": 15,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.98159,
+  "lng": 3.83455,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sa_Caleta.jpg/960px-Sa_Caleta.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/6/65/Sa_Caleta.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Sa_Caleta.jpg",
+  "imageCredit": "Joaquinceb · Public domain"
+}

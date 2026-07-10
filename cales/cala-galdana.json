@@ -1,0 +1,27 @@
+{
+  "id": "cala-galdana",
+  "name": "Cala Galdana",
+  "zone": "Centre · Ferreries",
+  "emoji": "🏖️",
+  "desc": "Una de les cales més emblemàtiques de Menorca, amb sorra blanca i aigües turqueses encaixada entre penya-segats calcaris. Disposa de tots els serveis i és punt de partida del Camí de Cavalls.",
+  "length": 450,
+  "width": 45,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.93774,
+  "lng": 3.96059,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Es_Pas_Vermell.jpg/960px-Es_Pas_Vermell.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/35/Es_Pas_Vermell.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Es_Pas_Vermell.jpg",
+  "imageCredit": "Marzan · CC BY-SA 3.0 es"
+}

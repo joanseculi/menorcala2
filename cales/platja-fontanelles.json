@@ -1,0 +1,27 @@
+{
+  "id": "platja-fontanelles",
+  "name": "Platja de ses Fontanelles",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Platja de sorra daurada situada al nord de Ciutadella, en un entorn natural ben conservat. Les seves aigües clares i la proximitat a la urbanització de Cala Morell la fan un destí popular.",
+  "length": 60,
+  "width": 12,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.04646,
+  "lng": 3.91465,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Cala_Fontanelles_%2820634225173%29.jpg/960px-Cala_Fontanelles_%2820634225173%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Cala_Fontanelles_%2820634225173%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Fontanelles_(20634225173).jpg",
+  "imageCredit": "RD_Elsie · CC BY 2.0"
+}

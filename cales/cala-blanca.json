@@ -1,0 +1,27 @@
+{
+  "id": "cala-blanca",
+  "name": "Cala Blanca",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Bonica cala de sorra blanca situada en una petita urbanització al sud de Ciutadella. Les seves aigües transparents i el seu entorn residencial la fan molt popular entre turistes i residents.",
+  "length": 40,
+  "width": 150,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.96774,
+  "lng": 3.83604,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Menorca_-_Cala_3.jpg/960px-Menorca_-_Cala_3.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Menorca_-_Cala_3.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Menorca_-_Cala_3.jpg",
+  "imageCredit": "Herodotptlomeu · CC BY-SA 4.0"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cala-en-blanes",
+  "name": "Cala en Blanes",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Petita cala de sorra situada a la zona nord-oest de Ciutadella, propera al complex turístic de Cala en Blanes. Les seves aigües clares i el seu entorn tranquil la fan atractiva per al bany.",
+  "length": 30,
+  "width": 42,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.00071,
+  "lng": 3.81334,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ses-salines",
+  "name": "Ses Salines",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🪨",
+  "desc": "Platja petita i assolellada que deu el seu nom a les antigues salines properes. Aigües netes i un entorn natural que convida a la relaxació absoluta.",
+  "length": 120,
+  "width": 30,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.040983,
+  "lng": 4.124302,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

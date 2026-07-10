@@ -195,6 +195,14 @@ function select(id, fly) {
   document.querySelectorAll(".cala-list li").forEach((li) =>
     li.classList.toggle("active", li.dataset.id === id)
   );
+
+  // auto-switch to detail view on mobile
+  if (window.innerWidth <= 960) {
+    document.querySelectorAll(".mobile-tab").forEach(t => t.classList.remove("active"));
+    document.querySelector('.mobile-tab[data-view="detail"]').classList.add("active");
+    document.getElementById("mapCol").style.display = "none";
+    document.getElementById("detail").style.display = "";
+  }
 }
 
 function fmtWalk(hours) {
@@ -295,3 +303,51 @@ function closeLightbox() {
   document.getElementById("lbImg").src = "";
   document.body.style.overflow = "";
 }
+
+// ---- Mobile tabs ----
+document.getElementById("mobileTabs").addEventListener("click", (e) => {
+  const btn = e.target.closest(".mobile-tab");
+  if (!btn) return;
+  document.querySelectorAll(".mobile-tab").forEach(t => t.classList.remove("active"));
+  btn.classList.add("active");
+  const view = btn.dataset.view;
+  const mapCol = document.getElementById("mapCol");
+  const detCol = document.getElementById("detail");
+  if (view === "map") {
+    mapCol.style.display = "";
+    detCol.style.display = "none";
+    setTimeout(() => map.invalidateSize(), 100);
+  } else {
+    mapCol.style.display = "none";
+    detCol.style.display = "";
+  }
+});
+
+// init mobile: hide detail on small screens
+function initMobileView() {
+  if (window.innerWidth <= 960) {
+    document.getElementById("detail").style.display = "none";
+  }
+}
+initMobileView();
+
+// handle resize: reset layout when going desktop
+let wasMobile = window.innerWidth <= 960;
+window.addEventListener("resize", () => {
+  const nowMobile = window.innerWidth <= 960;
+  if (wasMobile && !nowMobile) {
+    // going desktop: show both columns
+    document.getElementById("mapCol").style.display = "";
+    document.getElementById("detail").style.display = "";
+    document.getElementById("mobileTabs").style.display = "none";
+    setTimeout(() => map.invalidateSize(), 100);
+  } else if (!wasMobile && nowMobile) {
+    // going mobile: hide detail, show tabs
+    document.getElementById("detail").style.display = "none";
+    document.getElementById("mobileTabs").style.display = "";
+    document.querySelectorAll(".mobile-tab").forEach(t => t.classList.remove("active"));
+    document.querySelector('.mobile-tab[data-view="map"]').classList.add("active");
+    setTimeout(() => map.invalidateSize(), 100);
+  }
+  wasMobile = nowMobile;
+});

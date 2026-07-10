@@ -1,0 +1,27 @@
+{
+  "id": "cala-alcaufar",
+  "name": "Cala Alcaufar",
+  "zone": "Sud · Sant Lluís",
+  "emoji": "🏖️",
+  "desc": "Platja de sorra fina al costat de la urbanització d'Alcaufar, amb aigües poc profundes i apta per a famílies. Hi ha servei de bar i es pot arribar amb cotxe fins a prop.",
+  "length": 35,
+  "width": 40,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 150,
+  "walkHours": 0.05,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.82895,
+  "lng": 4.29263,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Alcaufar.jpg/960px-Alcaufar.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Alcaufar.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Alcaufar.jpg",
+  "imageCredit": "Gabino Bolívar Subirats · CC BY-SA 3.0"
+}

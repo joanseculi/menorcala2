@@ -1,0 +1,27 @@
+{
+  "id": "cala-pedrera",
+  "name": "Cala Pedrera",
+  "zone": "Sud · Sant Lluís",
+  "emoji": "🪨",
+  "desc": "Petita cala rocallosa propera a Es Castell, envoltada de penya-segats i pins. Aigua transparent i ambient tranquil, ideal per a banyar-se en un entorn verge.",
+  "length": 41,
+  "width": 50,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 600,
+  "walkHours": 0.18,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 2,
+  "lat": 39.874869,
+  "lng": 4.295302,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cala_Pedrera_01.jpg/960px-Cala_Pedrera_01.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/9/99/Cala_Pedrera_01.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Pedrera_01.jpg",
+  "imageCredit": "MontanNito · CC BY-SA 3.0"
+}

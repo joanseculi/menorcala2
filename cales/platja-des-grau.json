@@ -1,0 +1,27 @@
+{
+  "id": "platja-des-grau",
+  "name": "Platja des Grau",
+  "zone": "Nord · Maó",
+  "emoji": "🏖️",
+  "desc": "Àmplia platja de sorra fina situada al poble d'Es Grau, dins el Parc Natural de s'Albufera des Grau. Aigües poc profundes i tranquiles ideals per a famílies.",
+  "length": 590,
+  "width": 35,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.95060,
+  "lng": 4.26440,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Platja_d%27es_Grau_%282_de_agosto_de_2014%2C_Ma%C3%B3%29.JPG/960px-Platja_d%27es_Grau_%282_de_agosto_de_2014%2C_Ma%C3%B3%29.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Platja_d%27es_Grau_%282_de_agosto_de_2014%2C_Ma%C3%B3%29.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Platja_d%27es_Grau_(2_de_agosto_de_2014,_Ma%C3%B3).JPG",
+  "imageCredit": "Discasto · CC BY-SA 4.0"
+}

@@ -47,7 +47,12 @@
   </section>
 
   <main class="layout">
-    <section class="map-col">
+    <nav class="mobile-tabs" id="mobileTabs">
+      <button class="mobile-tab active" data-view="map">Mapa</button>
+      <button class="mobile-tab" data-view="detail">Detalls</button>
+    </nav>
+
+    <section class="map-col" id="mapCol">
       <div id="map"></div>
       <aside class="list-panel">
         <p class="list-count" id="listCount"></p>

@@ -1,0 +1,27 @@
+{
+  "id": "platja-atalis",
+  "name": "Platja d'Atalis",
+  "zone": "Sud · Es Migjorn Gran",
+  "emoji": "🏖️",
+  "desc": "Platja minúscula de sorra i còdols, gairebé sempre deserta i amagada entre roques. Un racó secret per a qui busqui pau i natura verge a la costa sud de Menorca.",
+  "length": 10,
+  "width": 1,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.910706,
+  "lng": 4.046992,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

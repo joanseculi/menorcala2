@@ -1,0 +1,27 @@
+{
+  "id": "es-canutells",
+  "name": "Es Canutells",
+  "zone": "Nord · Maó",
+  "emoji": "🏖️",
+  "desc": "Petita cala de sorra daurada situada en un entorn d'acantilats amb coves. Platja semiurbana amb aigües tranquil·les i un ambient relaxat.",
+  "length": 60,
+  "width": 50,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.85257,
+  "lng": 4.16831,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Es_Canutells_playa_por_la_tarde.jpg/960px-Es_Canutells_playa_por_la_tarde.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Es_Canutells_playa_por_la_tarde.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Es_Canutells_playa_por_la_tarde.jpg",
+  "imageCredit": "Songbird8 · CC BY-SA 4.0"
+}

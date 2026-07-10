@@ -1,0 +1,27 @@
+{
+  "id": "cala-morella-nou",
+  "name": "Cala Morella Nou",
+  "zone": "Nord · Maó",
+  "emoji": "🏖️",
+  "desc": "Petita cala verge dins el Parc Natural de s'Albufera des Grau. D'accés exclusivament marítim o a peu, ofereix un entorn tranquil i poc concorregut.",
+  "length": 30,
+  "width": 15,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.98251,
+  "lng": 4.25836,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

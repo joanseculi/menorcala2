@@ -1,0 +1,27 @@
+{
+  "id": "cala-es-morts",
+  "name": "Cala es Morts",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🪨",
+  "desc": "Petita cala de còdols arrecerada entre penya-segats, a prop de la urbanització de Cala Morell. El seu entorn verge i les aigües transparents ofereixen una experiència de bany tranquil·la i apartada.",
+  "length": 9,
+  "width": 18,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.049516,
+  "lng": 3.830568,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

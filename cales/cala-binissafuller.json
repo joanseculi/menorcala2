@@ -1,0 +1,27 @@
+{
+  "id": "cala-binissafuller",
+  "name": "Cala Binissafúller",
+  "zone": "Sud · Sant Lluís",
+  "emoji": "🏖️",
+  "desc": "Cala tranquil·la de sorra fina al costat del petit nucli de Binissafúller, amb aigües calmes i poc profundes. Ideal per a famílies, amb servei de bar i pàrquing proper.",
+  "length": 55,
+  "width": 40,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 150,
+  "walkHours": 0.05,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.82917,
+  "lng": 4.2186,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Binissafuller.jpg/960px-Binissafuller.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Binissafuller.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Binissafuller.jpg",
+  "imageCredit": "Gabino Bolívar Subirats · CC BY-SA 3.0"
+}

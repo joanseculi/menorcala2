@@ -1,0 +1,27 @@
+{
+  "id": "platja-na-macaret",
+  "name": "Platja de Na Macaret",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🏖️",
+  "desc": "Platja petita i familiar situada a prop del port de Maó. Sorra fina i aigua tranquil·la que convida a passar-hi llargues tardes d'estiu.",
+  "length": 50,
+  "width": 20,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.01613,
+  "lng": 4.20058,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/E10_Na_Macaret.JPG/960px-E10_Na_Macaret.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/3c/E10_Na_Macaret.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:E10_Na_Macaret.JPG",
+  "imageCredit": ""
+}

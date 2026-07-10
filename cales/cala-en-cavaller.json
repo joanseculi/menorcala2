@@ -1,0 +1,27 @@
+{
+  "id": "cala-en-cavaller",
+  "name": "Cala en Cavaller",
+  "zone": "Nord · Maó",
+  "emoji": "🏖️",
+  "desc": "Cala verge de la costa nord-est de Maó, dins el Parc Natural de s'Albufera des Grau. L'accés és exclusivament marítim o a peu pel Camí de Cavalls.",
+  "length": 40,
+  "width": 20,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.97895,
+  "lng": 4.25904,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cam%C3%AD_de_Cavalls_2%E2%80%94Cala_en_Cavaller.jpg/960px-Cam%C3%AD_de_Cavalls_2%E2%80%94Cala_en_Cavaller.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Cam%C3%AD_de_Cavalls_2%E2%80%94Cala_en_Cavaller.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cam%C3%AD_de_Cavalls_2%E2%80%94Cala_en_Cavaller.jpg",
+  "imageCredit": "Nicolas G. Mertens · CC BY-SA 4.0"
+}

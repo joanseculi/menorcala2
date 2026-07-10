@@ -1,0 +1,27 @@
+{
+  "id": "cala-es-pous",
+  "name": "Cala es Pous",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🪨",
+  "desc": "Petit racó de còdols situat a la costa nord de Ciutadella, prop de la urbanització de Cala Morell. Les seves aigües cristal·lines i el seu entorn natural el converteixen en un lloc tranquil i pintoresc.",
+  "length": 5,
+  "width": 10,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.050153,
+  "lng": 3.826487,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

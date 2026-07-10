@@ -1,0 +1,27 @@
+{
+  "id": "son-xoriguer",
+  "name": "Platja de Son Xoriguer",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Àmplia platja de sorra blanca situada a la urbanització de Cala en Bosc. Compta amb tots els serveis turístics i és molt freqüentada durant l'estiu.",
+  "length": 130,
+  "width": 25,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.92579,
+  "lng": 3.84282,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

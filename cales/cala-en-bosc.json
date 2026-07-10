@@ -1,0 +1,27 @@
+{
+  "id": "cala-en-bosc",
+  "name": "Cala en Bosc",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Cala àmplia amb sorra fina i aigües clares, envoltada de vegetació i urbanitzacions. El seu fons marí és ideal per a snorkel i bany tranquil.",
+  "length": 80,
+  "width": 80,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.92651,
+  "lng": 3.83753,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/E03_Urbanitzaci%C3%B3_de_la_cala_d%27en_Bosc.JPG/960px-E03_Urbanitzaci%C3%B3_de_la_cala_d%27en_Bosc.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/39/E03_Urbanitzaci%C3%B3_de_la_cala_d%27en_Bosc.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:E03_Urbanitzaci%C3%B3_de_la_cala_d%27en_Bosc.JPG",
+  "imageCredit": "Enfo · CC BY-SA 3.0"
+}

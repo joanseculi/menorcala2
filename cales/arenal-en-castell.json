@@ -1,0 +1,27 @@
+{
+  "id": "arenal-en-castell",
+  "name": "Arenal d'en Castell",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🏖️",
+  "desc": "Popular platja en forma de mitja lluna amb sorra fina i aigua turquesa. Molt concorreguda a l'estiu, però la seva bellesa no deixa ningú indiferent.",
+  "length": 650,
+  "width": 20,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.02187,
+  "lng": 4.18347,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Arenal_d%27en_Castell_%2821068735409%29.jpg/960px-Arenal_d%27en_Castell_%2821068735409%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Arenal_d%27en_Castell_%2821068735409%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Arenal_d'en_Castell_(21068735409).jpg",
+  "imageCredit": ""
+}

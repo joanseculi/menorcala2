@@ -1,0 +1,27 @@
+{
+  "id": "cala-en-forcat",
+  "name": "Cala en Forcat",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Petita cala de sorra rodejada de vegetació baixa, situada a prop del conegut complex turístic de Cala en Forcat. Ideal per a famílies gràcies a les seves aigües tranquil·les i poc profundes.",
+  "length": 25,
+  "width": 13,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.99939,
+  "lng": 3.79977,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

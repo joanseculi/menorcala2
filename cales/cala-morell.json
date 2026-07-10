@@ -1,0 +1,27 @@
+{
+  "id": "cala-morell",
+  "name": "Cala Morell",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Àmplia cala de sorra fina situada al nord de Ciutadella, envoltada de penya-segats i vegetació mediterrània. Compta amb serveis turístics i és un lloc ideal per a famílies i aficionats a l'esnórquel.",
+  "length": 200,
+  "width": 75,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.05306,
+  "lng": 3.88242,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/E01_Cala_Morell.JPG/960px-E01_Cala_Morell.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/cb/E01_Cala_Morell.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:E01_Cala_Morell.JPG",
+  "imageCredit": "Enfo · CC BY-SA 3.0"
+}

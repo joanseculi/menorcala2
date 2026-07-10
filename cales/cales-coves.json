@@ -1,0 +1,27 @@
+{
+  "id": "cales-coves",
+  "name": "Cales Coves",
+  "zone": "Nord · Alaior",
+  "emoji": "🏖️",
+  "desc": "Conjunt de petites cales de graveta amagades entre penya-segats, accessibles per un camí abrupte. Aigües cristal·lines i ambient encantat, ideal per a qui busqui tranquil·litat.",
+  "length": 50,
+  "width": 30,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.891111,
+  "lng": 4.081944,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Calas_Coves_%28Menorca%29.JPG/960px-Calas_Coves_%28Menorca%29.JPG",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Calas_Coves_%28Menorca%29.JPG",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Calas_Coves_(Menorca).JPG",
+  "imageCredit": "Maria Carmen · CC BY-SA 3.0 es"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cala-des-degollador",
+  "name": "Cala des Degollador",
+  "zone": "Oest · Ciutadella",
+  "emoji": "🏖️",
+  "desc": "Cala tranquil·la de sorra fina encaixada entre penya-segats baixos, al nord-oest de Ciutadella. El seu ambient serè i les seves aigües netes la fan perfecta per a una escapada tranquil·la.",
+  "length": 30,
+  "width": 35,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.99424,
+  "lng": 3.83577,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

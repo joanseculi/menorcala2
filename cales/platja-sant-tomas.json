@@ -1,0 +1,27 @@
+{
+  "id": "platja-sant-tomas",
+  "name": "Platja de Sant Tomàs",
+  "zone": "Sud · Es Migjorn Gran",
+  "emoji": "🏖️",
+  "desc": "Ampia platja de sorra daurada amb aigües poc profundes i càlides, ideal per a famílies i nens. Envoltada de pins i amb tots els serveis de lloguer i restaurants a tocar.",
+  "length": 750,
+  "width": 43,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.91372,
+  "lng": 4.04128,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sant_Tom%C3%A0s_%282_de_agosto_de_2015%2C_es_Migjorn_Gran%29.jpg/960px-Sant_Tom%C3%A0s_%282_de_agosto_de_2015%2C_es_Migjorn_Gran%29.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sant_Tom%C3%A0s_%282_de_agosto_de_2015%2C_es_Migjorn_Gran%29.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Sant_Tomàs_(2_de_agosto_de_2015,_es_Migjorn_Gran).jpg",
+  "imageCredit": "Discasto · CC BY-SA 4.0"
+}

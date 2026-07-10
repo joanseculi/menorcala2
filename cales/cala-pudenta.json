@@ -1,0 +1,27 @@
+{
+  "id": "cala-pudenta",
+  "name": "Cala Pudenta",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🪨",
+  "desc": "Petita cala que rep el seu nom del olor sulfurosa que de vegades es perceb. Tot i això, les seves aigües són cristal·lines i perfectes per al snorkel.",
+  "length": 80,
+  "width": 25,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.041688,
+  "lng": 4.159371,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

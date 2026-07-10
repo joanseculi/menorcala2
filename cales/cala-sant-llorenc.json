@@ -1,0 +1,27 @@
+{
+  "id": "cala-sant-llorenc",
+  "name": "Cala de Sant Llorenç",
+  "zone": "Nord · Alaior",
+  "emoji": "🏖️",
+  "desc": "Petita cala de graveta envoltada de vegetació mediterrània, sovint gaire buida. Aigües transparents i fons rocallosos, perfecta per a bany i snorkel.",
+  "length": 0,
+  "width": 0,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.88316,
+  "lng": 4.09376,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

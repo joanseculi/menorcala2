@@ -1,0 +1,27 @@
+{
+  "id": "cala-barril",
+  "name": "Cala Barril",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🪨",
+  "desc": "Petita cala oculta entre penya-segats que deixa el visitant impressionat. Les parets rocoses donen ombra fins a mitja tarda, creant un ambient màgic.",
+  "length": 80,
+  "width": 30,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.06211,
+  "lng": 4.02858,
+  "image": "",
+  "imageFull": "",
+  "imageSource": "",
+  "imageCredit": ""
+}

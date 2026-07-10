@@ -1,0 +1,27 @@
+{
+  "id": "arenal-son-saura",
+  "name": "Arenal de Son Saura",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🏖️",
+  "desc": "Amples platges de sorra blanca que formen una badia protegida. L'aigua poc profonda i transparent la fa ideal per als més petits de la família.",
+  "length": 330,
+  "width": 60,
+  "access": {
+    "cotxe": true,
+    "peu": true,
+    "bicicleta": true,
+    "moto": true,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.15,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 40.03318,
+  "lng": 4.16203,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Arenal_de_Son_Saura_1.jpg/960px-Arenal_de_Son_Saura_1.jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/8/80/Arenal_de_Son_Saura_1.jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Arenal_de_Son_Saura_1.jpg",
+  "imageCredit": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cala-sant-esteve",
+  "name": "Cala de Sant Esteve",
+  "zone": "Sud · Sant Lluís",
+  "emoji": "🪨",
+  "desc": "Cala estreta i llarga entre roques calcàries, amb aigües cristal·lines i colors turquesa. Un dels racons més bonics del sud de Menorca, accessible per un camí costerut.",
+  "length": 61,
+  "width": 106,
+  "access": {
+    "cotxe": false,
+    "peu": true,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 700,
+  "walkHours": 0.21,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 3,
+  "lat": 39.863952,
+  "lng": 4.298653,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cala_de_Sant_Esteve_(21105213458).jpg/960px-Cala_de_Sant_Esteve_(21105213458).jpg",
+  "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cala_de_Sant_Esteve_(21105213458).jpg",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_de_Sant_Esteve_(21105213458).jpg",
+  "imageCredit": "RD_Elsie · CC BY 2.0"
+}
