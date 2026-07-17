@@ -92,7 +92,7 @@ function drawMarkers() {
       fillOpacity: 0.95,
     }).addTo(map);
 
-    m.bindTooltip(b.name, { direction: "top", className: "cala-marker-label", offset: [0, -6] });
+    m.bindTooltip(b.name, { direction: "top", className: "cala-marker-label", offset: [0, -6], permanent: false });
     m.bindPopup(mapPopupHTML(b), { maxWidth: 240, className: "cala-popup" });
     m.on("click", () => select(b.id, true));
     markers[b.id] = m;
@@ -101,6 +101,20 @@ function drawMarkers() {
   // ajustar la vista a tots els marcadors
   const group = L.featureGroup(Object.values(markers));
   map.fitBounds(group.getBounds().pad(0.12));
+
+  // mostrar/ocultar noms segons zoom
+  function updateLabels() {
+    const z = map.getZoom();
+    Object.values(markers).forEach(m => {
+      if (z >= 13) {
+        if (!m.isTooltipOpen()) m.openTooltip();
+      } else {
+        m.closeTooltip();
+      }
+    });
+  }
+  map.on("zoomend", updateLabels);
+  updateLabels();
 }
 
 // HTML del popup del mapa (foto petita + nom); la foto obre el lightbox
@@ -215,7 +229,10 @@ function select(id, fly) {
     if (sel) m.bringToFront();
   });
 
-  if (fly) map.flyTo([b.lat, b.lng], 14, { duration: 0.6 });
+  if (fly) {
+    map.flyTo([b.lat, b.lng], 14, { duration: 0.6 });
+    if (markers[id]) markers[id].openPopup();
+  }
 
   renderDetail(b);
   // actualitzar estat actiu a la llista
