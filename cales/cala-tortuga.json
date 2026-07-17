@@ -1,9 +1,9 @@
 {
   "id": "cala-tortuga",
-  "name": "Cala Tortuga",
+  "name": "Cala Tortuga (Arenal de Morella)",
   "zone": "Nord · Es Grau (Parc Natural)",
   "emoji": "🐢",
-  "desc": "Cala verge dins del Parc Natural de s'Albufera, amb sorra daurada i un estany al darrere. Una de les joies del nord menys massificades.",
+  "desc": "Cala anomada també Cala Arenall de Morella. Cala verge dins del Parc Natural de s'Albufera, amb sorra daurada i un estany al darrere. Una de les joies del nord menys massificades.",
   "length": 180,
   "width": 35,
   "access": {
@@ -24,7 +24,7 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Cam%C3%AD_de_Cavalls_2%E2%80%94Platja_d%27en_Tortuga_%28Arenal_de_Morella%29_1.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Cam%C3%AD_de_Cavalls_2%E2%80%94Platja_d%27en_Tortuga_(Arenal_de_Morella)_1.jpg",
   "imageCredit": "Nicolas G. Mertens · CC BY-SA 4.0",
-  "howToArrive": "Accessible amb cotxe. Parking a l'àrea recreativa de Favàritx. A uns 14 km de Maó.",
+  "howToArrive": "Per arribar a Cala Tortuga, dirigiu-vos al Far de Favàritx a la costa nord-est de Menorca. En temporada alta (juny a setembre), l'accés està restringit: heu d'arribar al bus L43 des de Maó (uns 25 min). Durant el mes de juny a setembre, deixar el cotxe al Parking i caminar 2 km direcció al Far de Favàritx fins arribar a la senyalitzaciño a la dreta de les cales Priscili i Tortuga, caminar uns 20 minuts (1,8 km) pel sender senyalitzat del Camí de Cavalls.",
   "services": [
     "🅿️ Parking"
   ]
