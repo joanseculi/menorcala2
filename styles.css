@@ -137,6 +137,7 @@ body {
 
 /* ---------- LAYOUT ---------- */
 .layout {
+  flex: 1;
   display: grid;
   grid-template-columns: 1fr 380px;
   gap: 0;
@@ -437,7 +438,10 @@ body {
     border-top: 1px solid var(--border);
   }
 
-  .list-panel { max-height: 160px; }
+  .layout { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+  .map-col { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; }
+  #map { flex: 1; min-height: 0; height: auto; }
+  .list-panel { max-height: 160px; overflow-y: auto; flex-shrink: 0; }
 }
 
 @media (max-width: 480px) {
