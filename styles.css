@@ -466,7 +466,7 @@ body {
 .map-layers {
   position: absolute;
   top: 14px;
-  left: 14px;
+  left: 54px;
   z-index: 1000;
   display: flex;
   gap: 4px;
