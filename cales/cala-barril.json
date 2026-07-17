@@ -3,18 +3,18 @@
   "name": "Cala Barril",
   "zone": "Nord · Es Mercadal",
   "emoji": "🪨",
-  "desc": "Petita cala oculta entre penya-segats que deixa el visitant impressionat. Les parets rocoses donen ombra fins a mitja tarda, creant un ambient màgic.",
-  "length": 80,
-  "width": 30,
+  "desc": "Petita cala oculta entre penya-segats que deixa el visitant impressionat. Les parets rocoses donen ombra fins a mitja tarda, creant un ambient màgic. Compte amb el paisatge verge de la costa nord de Menorca, amb penya-segats de gres vermell i escassa concurrència fora de la temporada alta.",
+  "length": 250,
+  "width": 40,
   "access": {
-    "cotxe": true,
+    "cotxe": false,
     "peu": true,
     "bicicleta": true,
     "moto": true,
     "vaixell": true
   },
-  "walkDistance": 500,
-  "walkHours": 0.15,
+  "walkDistance": 2500,
+  "walkHours": 1,
   "water": "Cristal·lina",
   "sunHours": 8,
   "crowd": 3,
@@ -26,6 +26,5 @@
   "imageCredit": "Quico Iglesias · CC BY-SA 4.0",
   "howToArrive": "Per arribar fins a aquesta cala, podem seguir la sisena etapa del Camí de Cavalls que abasta des de Binimel-là fins als Alocs i passa, en el recorregut, per Cala Barril. Podem venir des de qualsevol dels dos punts, si bé és cert que el camí des de Binimel-là és més curt (menys de 2'5 km, davant dels 5'5 que suposa començar la travessia als Alocs) i, a més, aquesta ruta que passa per Cala Pregonda és especialment bonica. Per arribar a Binimel-là per carretera, cal sortir de Maó en direcció a Fornells per la Me-7. A continuació, agafarem el trencall cap a la Me-15 i agafarem la tercera sortida a la rotonda que trobarem a la carretera. A partir d´aquí, haurem de seguir els cartells que indiquen el camí a la platja (durant uns 8 km) i arribarem a un pàrquing on podrem estacionar. Des d'aquest punt, el camí s'haurà de seguir a peu.",
   "services": [
-    "🅿️ Parking"
   ]
 }
