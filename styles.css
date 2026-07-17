@@ -439,9 +439,9 @@ body {
   }
 
   .layout { flex: 1; min-height: 0; display: flex; flex-direction: column; }
-  .map-col { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; }
-  #map { flex: 1; min-height: 0; height: auto; }
-  .list-panel { max-height: 160px; overflow-y: auto; flex-shrink: 0; }
+  .map-col { flex: 1; min-height: 0; overflow: visible; display: flex; flex-direction: column; }
+  #map { height: 35vh; min-height: 200px; flex-shrink: 0; }
+  .list-panel { flex-shrink: 0; }
 }
 
 @media (max-width: 480px) {
