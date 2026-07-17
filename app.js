@@ -268,6 +268,13 @@ function renderDetail(b) {
       </div>
     </div>
 
+    ${b.howToArrive ? `
+    <div class="d-section">
+      <h3>Com arribar</h3>
+      <p class="d-howto">${b.howToArrive}</p>
+    </div>
+    ` : ''}
+
     <div class="d-section">
       <h3>Nivell d'afluència</h3>
       <div class="crowd-bar"><div class="crowd-fill" style="width:${b.crowd * 10}%"></div></div>
@@ -448,6 +455,7 @@ document.getElementById("addForm").addEventListener("submit", (e) => {
     imageFull: "",
     imageSource: "",
     imageCredit: "",
+    howToArrive: document.getElementById("fHowToArrive").value.trim(),
   };
 
   const json = JSON.stringify(data, null, 2);

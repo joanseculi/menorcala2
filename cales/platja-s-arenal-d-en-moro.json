@@ -1,0 +1,28 @@
+{
+  "id": "platja-s-arenal-d-en-moro",
+  "name": "Platja s'Arenal d'en Moro",
+  "zone": "Nord · Maó",
+  "emoji": "🏖️",
+  "desc": "Platja cristal•lina només accessible amb barca o kayak. Situada a la Illa de Colom. Aigues tranquil·les i ideals per al busseig. Eas pot arribar des d'Es Grau en kayak en 30 minuts.",
+  "length": 100,
+  "width": 25,
+  "access": {
+    "cotxe": false,
+    "peu": false,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.17,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 1,
+  "lat": 39.9636,
+  "lng": 4.274788,
+  "image": "https://www.verplayas.com/wp-content/uploads/2026/03/s-arenal-d-en-moro-01-1024x578.jpg",
+  "imageFull": "https://www.verplayas.com/wp-content/uploads/2026/03/s-arenal-d-en-moro-01-1024x578.jpg",
+  "imageSource": "https://www.verplayas.com/wp-content/uploads/2026/03/s-arenal-d-en-moro-01-1024x578.jpg",
+  "imageCredit": "",
+  "howToArrive": ""
+}

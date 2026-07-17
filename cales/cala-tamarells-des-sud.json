@@ -1,6 +1,6 @@
 {
-  "id": "cala-dels-tamarells",
-  "name": "Cala dels Tamarells",
+  "id": "cala-tamarells-des-sud",
+  "name": "Cala Tamarells des Sud",
   "zone": "Nord · Maó",
   "emoji": "🏖️",
   "desc": "Petita cala verge dins el Parc Natural de s'Albufera des Grau, amb un fondejador natural. Entorn de gran valor ecològic i paisatgístic.",
@@ -23,5 +23,6 @@
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Fondejador_de_en_Llen%C3%A8s_%282_de_agosto_de_2014%2C_Parc_Natural_de_s%27Albufera_des_Grau%29.jpg/960px-Fondejador_de_en_Llen%C3%A8s_%282_de_agosto_de_2014%2C_Parc_Natural_de_s%27Albufera_des_Grau%29.jpg",
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/1/19/Fondejador_de_en_Llen%C3%A8s_%282_de_agosto_de_2014%2C_Parc_Natural_de_s%27Albufera_des_Grau%29.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Fondejador_de_en_Llen%C3%A8s_(2_de_agosto_de_2014,_Parc_Natural_de_s%27Albufera_des_Grau).jpg",
-  "imageCredit": "Discasto · CC BY-SA 4.0"
+  "imageCredit": "Discasto · CC BY-SA 4.0",
+  "howToArrive": ""
 }
