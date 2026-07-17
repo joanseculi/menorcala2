@@ -48,7 +48,7 @@ async function init() {
 
 function initMap() {
   map = L.map("map", { scrollWheelZoom: true }).setView([39.97, 4.05], 11);
-  currentLayer = layers.osm;
+  currentLayer = layers.sat;
   currentLayer.addTo(map);
 
   document.querySelectorAll(".map-layer").forEach(btn => {
