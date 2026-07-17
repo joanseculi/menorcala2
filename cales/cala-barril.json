@@ -10,7 +10,7 @@
     "cotxe": false,
     "peu": true,
     "bicicleta": true,
-    "moto": true,
+    "moto": false,
     "vaixell": true
   },
   "walkDistance": 2500,
