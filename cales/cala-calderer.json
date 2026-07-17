@@ -4,17 +4,17 @@
   "zone": "Nord · Es Mercadal",
   "emoji": "🪨",
   "desc": "Caló petit i recòndit envoltat de vegetació, inaccessible per mar i ideal per als qui busquen silenci. L'aigua és transparent i el fons marí ple de vida.",
-  "length": 70,
-  "width": 20,
+  "length": 80,
+  "width": 90,
   "access": {
-    "cotxe": true,
+    "cotxe": false,
     "peu": true,
     "bicicleta": true,
-    "moto": true,
+    "moto": false,
     "vaixell": true
   },
-  "walkDistance": 500,
-  "walkHours": 0.15,
+  "walkDistance": 3000,
+  "walkHours": 1,
   "water": "Cristal·lina",
   "sunHours": 8,
   "crowd": 3,
@@ -24,8 +24,7 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Cala_Calderer_%281%29.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Calderer_(1).jpg",
   "imageCredit": "Quico Iglesias · CC BY-SA 4.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 6 km de Ciutadella.",
+  "howToArrive": "Des d'Es Mercadal, agafar el Camí de Tramontana direcció les platges del Nord, com Binimel·la o Pregonda. En el nostre cas, dirigir-se a la Platja de Binimel·la, on hiha un aparcament. Després d'estacionar, arribar a la platja de Binimel·là, continuar la costa cap a la nostra esquerra. Passar Cales Morts, Pregondó, Pregonda, continuar pel camí de Cavalls per un bosc i creuar per un camí asfaltat (per on continua el camí de Cavalls). Només creuar l'asfalt veurem Cala Barril. Continuar Camí de Cavalls des de Cala Barril, cal pujar un turó i continuar uns 2 km més per terreny sense ombra. La distància total des de l´aparcament a Binimel·là fins a Cala Calderer és de 3 km.",
   "services": [
-    "🅿️ Parking"
   ]
 }
