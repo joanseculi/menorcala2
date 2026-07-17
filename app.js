@@ -282,6 +282,12 @@ function renderDetail(b) {
         b.crowd <= 3 ? "— perfecta per desconnectar 🤫" : ""
       }</p>
     </div>
+
+    <div class="d-section d-maps">
+      <a class="d-maps-btn" href="https://www.google.com/maps/dir/?api=1&destination=${b.lat},${b.lng}" target="_blank" rel="noopener">
+        🗺️ Com arribar a <strong>${b.name}</strong>
+      </a>
+    </div>
   `;
 
   const photoEl = document.querySelector(".d-top.has-photo");
