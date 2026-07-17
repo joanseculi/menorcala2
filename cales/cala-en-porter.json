@@ -24,5 +24,10 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cala%27n_Porter_%28Menorca%29.JPG",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Cala%27n_Porter_(Menorca).JPG",
   "imageCredit": "Maria Carmen · CC BY-SA 3.0 es",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 6 km d'Alaior."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 6 km d'Alaior.",
+  "services": [
+    "🅿️ Parking",
+    "🍽️ Restaurants",
+    "🛒 Botigues"
+  ]
 }

@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/7/77/PLATGES_DE_CAVALLERIA_-_MENORCA_-_IB-253.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:PLATGES_DE_CAVALLERIA_-_MENORCA_-_IB-253.jpg",
   "imageCredit": "Isidre blanc · CC BY-SA 3.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 12 km d'Es Mercadal."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 12 km d'Es Mercadal.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

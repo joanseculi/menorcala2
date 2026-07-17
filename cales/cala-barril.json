@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cala_Barril_%281%29.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Barril_(1).jpg",
   "imageCredit": "Quico Iglesias · CC BY-SA 4.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 6 km de Ciutadella."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 6 km de Ciutadella.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

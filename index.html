@@ -54,6 +54,11 @@
 
     <section class="map-col" id="mapCol">
       <div id="map"></div>
+      <div class="map-layers" id="mapLayers">
+        <button class="map-layer active" data-layer="osm">🗺️ Mapa</button>
+        <button class="map-layer" data-layer="sat">🛰️ Satèl·lit</button>
+        <button class="map-layer" data-layer="terrain">⛰️ Relleu</button>
+      </div>
       <button class="map-add-btn" id="addBtn" title="Afegeix una cala nova">+</button>
       <aside class="list-panel">
         <p class="list-count" id="listCount"></p>
@@ -150,6 +155,10 @@
         <div class="add-row add-desc">
           <label>Com arribar</label>
           <textarea id="fHowToArrive" placeholder="Indicacions per arribar a la cala…" rows="3"></textarea>
+        </div>
+        <div class="add-row add-desc">
+          <label>Serveis (separats per comes)</label>
+          <textarea id="fServices" placeholder="Parking, Dutxes, Restaurants, Kayak…" rows="2"></textarea>
         </div>
         <div class="add-row add-emoji">
           <label>Emoji</label>

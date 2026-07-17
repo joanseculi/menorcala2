@@ -24,5 +24,17 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/35/Es_Pas_Vermell.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Es_Pas_Vermell.jpg",
   "imageCredit": "Marzan · CC BY-SA 3.0 es",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 4 km de Ferreries. Serveis turístics."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 4 km de Ferreries. Serveis turístics.",
+  "services": [
+    "🚌 Bus",
+    "🅿️ Parking",
+    "🚿 Dutxes",
+    "🛟 Socorrista",
+    "🛶 Kayak",
+    "🏄 Paddle surf",
+    "🤿 Buceig",
+    "🍽️ Restaurants",
+    "🛒 Supermercat",
+    "💊 Farmàcia"
+  ]
 }

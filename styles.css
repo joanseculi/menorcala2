@@ -283,6 +283,19 @@ body {
 .crowd-label { font-size: 0.82rem; color: var(--muted); }
 .crowd-label strong { color: var(--ink); }
 
+.d-services { display: flex; gap: 6px; flex-wrap: wrap; }
+.d-service {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 6px 10px; border-radius: 8px;
+  font-size: 0.78rem; font-weight: 600;
+  background: var(--blue-50); border: 1px solid var(--blue-100);
+  color: var(--ink-light);
+}
+.d-noservices {
+  font-size: 0.82rem; color: var(--muted);
+  font-style: italic;
+}
+
 .d-maps { padding-top: 4px; }
 .d-maps-btn {
   display: flex;
@@ -447,6 +460,38 @@ body {
   .d-name { font-size: 1.4rem; }
   .d-section { padding: 0 16px 12px; }
   .detail-empty { padding: 30px 20px; }
+}
+
+/* ---------- LAYER SWITCHER ---------- */
+.map-layers {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 1000;
+  display: flex;
+  gap: 4px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 4px;
+  box-shadow: var(--shadow-lg);
+}
+.map-layer {
+  padding: 7px 12px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--ink-light);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.map-layer:hover { background: var(--blue-50); }
+.map-layer.active {
+  background: var(--blue-600);
+  color: #fff;
 }
 
 /* ---------- ADD BUTTON ---------- */

@@ -24,5 +24,9 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/9/93/Menorca_-_Cala_Santandria_2.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Menorca_-_Cala_Santandria_2.jpg",
   "imageCredit": "Herodotptlomeu · CC BY-SA 4.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 2 km de Ciutadella."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 2 km de Ciutadella.",
+  "services": [
+    "🅿️ Parking",
+    "🍽️ Restaurants"
+  ]
 }

@@ -24,5 +24,9 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/3/39/E03_Urbanitzaci%C3%B3_de_la_cala_d%27en_Bosc.JPG",
   "imageSource": "https://commons.wikimedia.org/wiki/File:E03_Urbanitzaci%C3%B3_de_la_cala_d%27en_Bosc.JPG",
   "imageCredit": "Enfo · CC BY-SA 3.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 3 km de Ciutadella."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 3 km de Ciutadella.",
+  "services": [
+    "🅿️ Parking",
+    "🍽️ Restaurants"
+  ]
 }

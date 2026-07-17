@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/4/47/Beca.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Beca.jpg",
   "imageCredit": "Marta Ensesa · CC BY-SA 4.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 2 km de Sant Lluís."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 2 km de Sant Lluís.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Arenal_de_Son_Saura_6.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Arenal_de_Son_Saura_6.jpg",
   "imageCredit": "Alejandro Muñoz Cabrisas · CC BY-SA 4.0",
-  "howToArrive": "Accessible amb cotxe. Parking ampli. A uns 14 km de Ciutadella."
+  "howToArrive": "Accessible amb cotxe. Parking ampli. A uns 14 km de Ciutadella.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

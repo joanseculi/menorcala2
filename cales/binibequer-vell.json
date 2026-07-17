@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Binibeca_Vell%2C_Menorca.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Binibeca_Vell,_Menorca.jpg",
   "imageCredit": "MontanNito · CC BY-SA 3.0",
-  "howToArrive": ""
+  "howToArrive": "",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

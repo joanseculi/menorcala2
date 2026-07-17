@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cala_de_Sant_Esteve_(21105213458).jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_de_Sant_Esteve_(21105213458).jpg",
   "imageCredit": "RD_Elsie · CC BY 2.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 3 km de Sant Lluís."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 3 km de Sant Lluís.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

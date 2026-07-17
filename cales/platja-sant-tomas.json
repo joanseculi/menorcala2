@@ -24,5 +24,15 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sant_Tom%C3%A0s_%282_de_agosto_de_2015%2C_es_Migjorn_Gran%29.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Sant_Tomàs_(2_de_agosto_de_2015,_es_Migjorn_Gran).jpg",
   "imageCredit": "Discasto · CC BY-SA 4.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 3 km d'Es Migjorn Gran."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 3 km d'Es Migjorn Gran.",
+  "services": [
+    "🚌 Bus",
+    "🅿️ Parking",
+    "🚿 Dutxes",
+    "🏖️ Hamaques",
+    "🛟 Socorrista",
+    "🍽️ Restaurants",
+    "🛒 Supermercat",
+    "💊 Farmàcia"
+  ]
 }

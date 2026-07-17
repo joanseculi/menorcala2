@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/2/27/Platja_de_Binigaus%2C_Menorca_%2814291583412%29.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Platja_de_Binigaus,_Menorca_(14291583412).jpg",
   "imageCredit": "Paul Stephenson from London · CC BY 2.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 5 km d'Es Migjorn Gran."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 5 km d'Es Migjorn Gran.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

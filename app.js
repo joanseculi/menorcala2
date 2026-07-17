@@ -6,6 +6,24 @@ let selectedId = null;
 let map;
 let markers = {}; // id -> L.circleMarker
 
+// ---- Mapa ----
+let currentLayer = null;
+
+const layers = {
+  osm: L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+    attribution: "© OpenStreetMap, © CARTO",
+    maxZoom: 19,
+  }),
+  sat: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+    attribution: "© Esri, Maxar, Earthstar Geographics",
+    maxZoom: 19,
+  }),
+  terrain: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}", {
+    attribution: "© Esri, HERE, Garmin",
+    maxZoom: 18,
+  }),
+};
+
 init();
 
 async function init() {
@@ -28,13 +46,22 @@ async function init() {
   render();
 }
 
-// ---- Mapa ----
 function initMap() {
   map = L.map("map", { scrollWheelZoom: true }).setView([39.97, 4.05], 11);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-    attribution: "© OpenStreetMap, © CARTO",
-    maxZoom: 19,
-  }).addTo(map);
+  currentLayer = layers.osm;
+  currentLayer.addTo(map);
+
+  document.querySelectorAll(".map-layer").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const key = btn.dataset.layer;
+      if (key === (currentLayer === layers.osm ? "osm" : currentLayer === layers.sat ? "sat" : "terrain")) return;
+      map.removeLayer(currentLayer);
+      currentLayer = layers[key];
+      currentLayer.addTo(map);
+      document.querySelectorAll(".map-layer").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+    });
+  });
 }
 
 function crowdColor(c) {
@@ -283,6 +310,15 @@ function renderDetail(b) {
       }</p>
     </div>
 
+    <div class="d-section">
+      <h3>Serveis i Activitats</h3>
+      ${b.services && b.services.length > 0 ? `
+      <div class="d-services">
+        ${b.services.map(s => `<span class="d-service">${s}</span>`).join('')}
+      </div>
+      ` : '<p class="d-noservices">Sense serveis</p>'}
+    </div>
+
     <div class="d-section d-maps">
       <a class="d-maps-btn" href="https://www.google.com/maps/dir/?api=1&destination=${b.lat},${b.lng}" target="_blank" rel="noopener">
         🗺️ Com arribar a <strong>${b.name}</strong>
@@ -462,6 +498,7 @@ document.getElementById("addForm").addEventListener("submit", (e) => {
     imageSource: "",
     imageCredit: "",
     howToArrive: document.getElementById("fHowToArrive").value.trim(),
+    services: document.getElementById("fServices").value.split(",").map(s => s.trim()).filter(Boolean),
   };
 
   const json = JSON.stringify(data, null, 2);

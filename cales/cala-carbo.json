@@ -24,5 +24,8 @@
   "imageFull": "https://www.isoladiminorca.com/wp-content/uploads/2012/05/1-3-1200x400.jpg",
   "imageSource": "https://www.isoladiminorca.com/wp-content/uploads/2012/05/1-3-1200x400.jpg",
   "imageCredit": "",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 5 km de Ciutadella."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 5 km de Ciutadella.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

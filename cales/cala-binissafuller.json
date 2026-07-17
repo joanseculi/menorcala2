@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Binissafuller.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Binissafuller.jpg",
   "imageCredit": "Gabino Bolívar Subirats · CC BY-SA 3.0",
-  "howToArrive": ""
+  "howToArrive": "",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

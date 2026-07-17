@@ -24,5 +24,8 @@
   "imageFull": "https://www.menorca.es/documents/Imatges/589imgpub.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:07769_Cales_Piques,_Illes_Balears,_Spain_-_panoramio_(1).jpg",
   "imageCredit": "",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 4 km de Ciutadella."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 4 km de Ciutadella.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }

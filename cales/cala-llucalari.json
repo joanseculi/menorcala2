@@ -24,5 +24,8 @@
   "imageFull": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cala_Llucalari_%287162570771%29_%282%29.jpg",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Cala_Llucalari_(7162570771)_(2).jpg",
   "imageCredit": "MuninMoon · CC BY 2.0",
-  "howToArrive": "Accessible amb cotxe. Parking. A uns 3 km d'Alaior."
+  "howToArrive": "Accessible amb cotxe. Parking. A uns 3 km d'Alaior.",
+  "services": [
+    "🅿️ Parking"
+  ]
 }
