@@ -1,0 +1,28 @@
+{
+  "id": "cala-s-olla",
+  "name": "Cala s'Olla",
+  "zone": "Nord · Es Mercadal",
+  "emoji": "🏖️",
+  "desc": "Cala verge circular a l'illa d'Addaia. S'accedeix per una entrada estreta. Les seves aigues son poc profundes. en formad'olla. Des de la cala es potveure el Far de Favàritx. Ideal per a busseig i snorkel. Pots trobar algunes barquetes. Sorra i còbols.",
+  "length": 10,
+  "width": 2,
+  "access": {
+    "cotxe": false,
+    "peu": false,
+    "bicicleta": false,
+    "moto": false,
+    "vaixell": true
+  },
+  "walkDistance": 500,
+  "walkHours": 0.17,
+  "water": "Cristal·lina",
+  "sunHours": 8,
+  "crowd": 1,
+  "lat": 40.014694,
+  "lng": 4.208952,
+  "image": "img/cala-s-olla.jpg",
+  "imageFull": "img/cala-s-olla.jpg",
+  "imageCredit": "",
+  "howToArrive": "Des del port d'Addaia hi ha 2,5 km i només es pot arribar en vaixell o kayac. O també des del port de Na Macaret, 2 km.",
+  "services": []
+}
